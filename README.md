@@ -5,9 +5,13 @@ This is my first mod. Originally I got the code from other mods published on Ste
 
 It contains
 
-1 playable character
+New character
 =====
+
+OP Character
+-----
 The overpowered lizard warrior "OP Character" - 40 health, comes equipped with the 4 OP objects below)
+
 
 4 objects
 =====
