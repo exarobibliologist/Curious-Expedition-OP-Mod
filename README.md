@@ -27,3 +27,11 @@ A smartwatch cellphone. Bonus +10 Units for an expedition. Click on the watch to
 Willy Wonka's Everlasting Gobstopper
 -----
 Sanity food that never runs out. Click to instantly refill sanity.
+
+# How To Install
+
+Copy the entire OPgear folder to your mods directory in Curious Expedition.
+
+For Steam users this will be: `\Steam\steamapps\common\The Curious Expedition\mods\`
+
+Open Curious Expedition 1, click on Mods, and enable the Mod in the mod list.
