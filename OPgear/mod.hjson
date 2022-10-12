@@ -100,7 +100,7 @@
 		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
 		noWeight: true
 		maxStack: 1
-		bonus: {gunDamage: 10}
+		bonus: {viewDist: 1.0}
 		useEvents: evt-opglasses-useEvent
 	}
 	
