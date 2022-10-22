@@ -99,7 +99,6 @@
 		sprite: it_opglasses.png
 		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
 		noWeight: true
-		autoRemove: true
 		maxStack: 1
 		bonus: {viewDist: 1.0}
 		useEvents: evt-opglasses-useEvent
@@ -124,7 +123,6 @@
 		sprite: it_opchoc.png
 		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
 		noWeight: true
-		autoRemove: true
 		maxStack: 1
 		useEvents:
 			{
@@ -144,9 +142,6 @@
 		{slots: 4, items:{il-opchest-extras: 5}}
 		{slots: 3, items:{il-opchest-guns: 1}}
 		{slots: 2, items:{il-opchest-tomePages: 5}}
-		{slots: 2, items:{it-opglasses: 1}}
-		{slots: 2, items:{it-opwatch: 1}}
-		{slots: 2, items:{it-opchoc: 1}}
 		]
 	}
 
@@ -333,5 +328,21 @@
 		it-opchest:1
 		slots: 500
 	}
+	{
+		targetId: +il-harbor-rations::items
+		it-opglasses:1
+		slots: 250
+	}
+	{
+		targetId: +il-harbor-rations::items
+		it-opwatch:1
+		slots: 250
+	}
+	{
+		targetId: +il-harbor-rations::items
+		it-opchoc:1
+		slots: 250
+	}
+
 	]
 }
