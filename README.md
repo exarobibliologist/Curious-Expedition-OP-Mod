@@ -5,28 +5,55 @@ This is my first mod. I wasn't happy with other OP mods (either too overpowered,
 
 This has been recoded so much that it can be considered a new mod, even if the results are similar to other mods.
 
+Character
+=====
 
 OP Character
 -----
-A lizard warrior with +40 health, 4 bonuses (Polymath, Cooking 4, Healer, and OP Status). Only comes equipped with the OP objects below (like you would need anything else!?)
+Only comes eqipped with the OP objects listed below (like you would need anything else!?)
+
+A lizard warrior with +40 health, and 4 perks
+
+```
+Polymath - Allows player to choose between 5 perks instead of 3.
+Culinary Finesse - Can cook meat to increase sanity regeneration.
+Healer - Is capable of treating wounds. Grants 25% health regeneration to all non-animal trek members. 
+OP Status - See below for details
+```
+
+Perks
+=====
 
 OP Status
 -----
-A new bonus status that you can get at the end of a quest. OP Character comes with this status at the beginning of the game.
+The perk that OP Character comes with this status at the beginning of the game. Can also be gained as one of the random perks gained in between quests.
+```
+Sanity +50
+Combat Rolls +3
+Pulls out random items from a personal OP Chest every few days - This is the easiest way I've ever seen to overload an inventory!
+```
 
-`Sanity +50, Combat Rolls +3, also pulls out random items from the OP Chest every few days`
+Items
+=====
 
 Op Chest
 -----
-A bag of holding (bonus +30 capacity). Click on the bag to pull random useful items and treasure out.
+```
++30 Capacity
+Click on the bag to pull random useful items and treasure out.
+```
 
 OP Glasses
 -----
-Augmented Reality Headset. Improves your view distance a little. Click on the glasses to get bonus Score, Standing, and Funds
+Improves your view distance a little.
+Click on the glasses to get bonus Score, Standing, and Funds
 
 OP Watch
 -----
-A smartwatch cellphone. Bonus +10 Units for an expedition. Click on the watch to summon a unit to the expedition.
+```
++10 Units
+Click on the watch to summon a unit to the expedition.
+```
 
 OP Radar
 -----
@@ -34,7 +61,9 @@ Radar that reveals all the quest locations on the map.
 
 Willy Wonka's Everlasting Gobstopper
 -----
-Sanity food that never runs out. Click to instantly refill sanity.
+Why didn't I call this OP Chocolate? I don't know.
+
+Click to instantly refill sanity.
 
 # How To Install
 
