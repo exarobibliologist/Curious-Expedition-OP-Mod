@@ -4,9 +4,9 @@
     id: OPgear
     name: The OP Gear
     authors: Murf
-    version: "0.1"
+    version: "0.3.1.4"
     preview: treasurechestpic
-    description: Some Seriously OP gear!!
+    description: "OP = OverPowered. If you die while using this, it's your fault."
 	defaultLang: en
   },
   imageData:[
@@ -42,306 +42,23 @@
 		id: it_opchoc.png
 		file: OPgear/it_opchoc.png
     }
+	{
+		id: it_radar.png
+		file: OPgear/it_radar.png
+    }
+
   ],
   modEntries:[
-	
 	{
-		id: sp-OPguy
-		extends: sp-base
-		debugCategory: Modding
-		alwaysUnlocked: true
-		name: OP Character
-		title: txt-sp-inventor-title
-		description: There is no fate but what we make for ourselves
-		health: 40
-		items:
-			{
-				it-opchest:1
-				it-opglasses:1
-				it-opwatch:1
-				it-opchoc:1
-			}
-		levels:
-			[
-				{
-				statuses: st-polymath st-cookSanity-4 st-healer st-anthropology
-				dice: dc-support-2 dc-support-2 dc-attack-2 dc-attack-2 dc-attack-2 dc-lizard-2 dc-lizard-2 dc-lizard-2 dc-defend-2 dc-defend-2
-				}
-			]
-		flags: +special +humanoid +scientist
-		variations:
-			[
-				{
-				gender: male
-				sprite: sprite_1
-				portrait: face_1
-				miniSprite: miniSprite_1
-				}
-			]
-	}
-  
-	{
-		id: it-opchest
-		name: OP Chest
-		description: Bag of Holding. Never run out of items or space.
-		sprite: it_opchest.png
-		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
-		noWeight: true
-		maxStack: 1
-		bonus: {capacity: 30}
-		useEvents: evt-opchest-useEvent
-	}
-	
-	{
-		id: it-opglasses
-		name: OP Glasses
-		description: Augmented Reality Headset
-		sprite: it_opglasses.png
-		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
-		noWeight: true
-		maxStack: 1
-		bonus: {viewDist: 1.0}
-		useEvents: evt-opglasses-useEvent
-	}
-	
-	{
-		id: it-opwatch
-		name: OP Watch
-		description: Smart Watch with Unlimited Portal Connection
-		sprite: it_opwatch.png
-		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
-		noWeight: true
-		maxStack: 1
-		bonus: {maxUnitCount: 10}
-		useEvents: evt-opwatch-useEvent
-	}
-	
-	{
-		id: it-opchoc
-		name: Willy Wonka's Everlasting Gobstopper
-		description: The Everlasting Chocolate Bar
-		sprite: it_opchoc.png
-		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
-		noWeight: true
-		maxStack: 1
-		useEvents:
-			{
-			sanity: 1000
-			health: 100
-			removeItem : false
-			}
-	}
-	
-	{ 
-	id: evt-opchest-useEvent
-	select: [
-		{slots: 3, items:{il-opchest-treasure: 1}}
-		{slots: 2, items:{il-opchest-sanity: 5}}
-		{slots: 3, items:{il-opchest-essentials: 5}}
-		{slots: 3, items:{il-opchest-shrooms: 5}}
-		{slots: 4, items:{il-opchest-extras: 5}}
-		{slots: 3, items:{il-opchest-guns: 1}}
-		{slots: 2, items:{il-opchest-tomePages: 5}}
-		]
+		import: \OPgear\characters.hjson
 	}
 
 	{
-    id: il-opchest-treasure
-	items:
-		[
-		{slots: 5, it-painting-shrine-4: 10}
-		{slots: 5, it-painting-location-4: 10}
-		{slots: 5, it-painting-native-4: 10}
-		{slots: 5, it-anthropologicalStudies: 10}
-		{slots: 3, it-animalTooth: 10}
-		{slots: 3, it-elephantTusk: 10}
-		{slots: 3, it-triceratopsHorn: 10}
-		{slots: 3, it-mammothTusk: 10}
-		{slots: 3, it-dinoSkull: 1}
-		{slots: 1, it-treasure-mask: 1}
-		{slots: 1, it-treasure-slokra: 1}
-		{slots: 1, it-treasure-bowl: 1}
-		{slots: 1, it-treasure-lama: 1}
-		{slots: 1, it-treasure-skull: 1}
-		{slots: 1, it-treasure-dagger: 1}
-		{slots: 1, it-treasure-owl: 1}
-		{slots: 1, it-treasure-eagle: 1}
-		{slots: 1, it-treasure-statue: 1}
-		{slots: 1, it-treasure-amulet: 1}
-		{slots: 1, it-treasure-plate: 1}
-		{slots: 1, it-treasure-beauty: 1}
-		{slots: 1, it-treasure-eggplant: 1}
-		]
-	}
-	
-	{
-    id: il-opchest-sanity
-	items:
-		[
-		{slots: 1, it-meat-animal-cooked-perfect: 10}
-		{slots: 1, it-meat-animal-cooked-overcooked: 10}
-		{slots: 1, it-meat-animal-cooked-burnt: 10}
-		{slots: 1, it-meat-animal-cooked-charcoal: 10}
-		{slots: 1, it-meat-raw: 10}
-		{slots: 1, it-chocolate: 10}
-		{slots: 1, it-whisky: 10}
-		{slots: 1, it-redBerries: 10}
-		{slots: 1, it-mango: 10}
-		{slots: 1, it-tinCans: 20}
-		{slots: 1, it-cocaLeaves: 10}
-		{slots: 1, it-muktuk: 10}
-		]
-	}
-
-
-	{
-    id: il-opchest-essentials
-	items:
-		[
-		{slots: 1, it-dynamite: 10}
-		{slots: 1, it-rope: 20}
-		{slots: 1, it-shovel: 10}
-		{slots: 1, it-machete: 10}
-		{slots: 1, it-torch: 10}
-		{slots: 1, it-canvas: 20}
-		{slots: 1, it-climbingGear: 10}
-		{slots: 1, it-binoculars: 1}
-		{slots: 1, it-sextant: 1}
-		{slots: 1, it-telescope: 1}
-		{slots: 4, it-firstAid: 20}
-		]
+		import: \OPgear\items.hjson
 	}
 
 	{
-    id: il-opchest-shrooms
-	items:
-		[
-		{slots: 1, it-mushroom-view: 10}
-		{slots: 1, it-mushroom-healing: 10}
-		{slots: 1, it-mushroom-status: 10}
-		{slots: 1, it-mushroom-noAngry: 10}
-		{slots: 1, it-mushroom-capacity: 10}
-		{slots: 1, it-mushroom-view: 10}
-		{slots: 1, it-mushroom-healing: 10}
-		{slots: 1, it-mushroom-status: 10}
-		{slots: 1, it-mushroom-noAngry: 10}
-		{slots: 1, it-mushroom-capacity: 10}
-		]
-	}
-
-	{
-    id: il-opchest-extras
-	items:
-		[
-		{slots: 1, it-binoculars: 1}
-		{slots: 1, it-sextant: 1}
-		{slots: 1, it-telescope: 1}
-		{slots: 1, it-crystalBall: 1}
-		{slots: 1, it-wadjetEye: 1}
-		{slots: 1, it-necronomicon: 1}
-		{slots: 1, it-obsidianMirror: 1}
-		{slots: 2, it-metalCube: 10}
-		{slots: 2, it-moonStone: 10}
-		{slots: 2, it-pumpkinLantern: 1}
-		]
-	}
-
-	{
-    id: il-opchest-guns
-	items:
-		[
-		{slots: 1, it-pistol: 5}
-		{slots: 5, it-pistol-improved: 5}
-		{slots: 1, it-shotgun: 5}
-		{slots: 5, it-shotgun-improved: 5}
-		{slots: 1, it-rifle: 5}
-		{slots: 5, it-rifle-improved: 5}
-		]
-	}
-
-	{
-    id: il-opchest-tomePages
-    items:
-		[
-		{slots: 2, it-tomePage-randomTeleport: 10}
-		{slots: 1, it-tomePage-healingSprings: 10}
-		{slots: 1, it-tomePage-waterfall: 10}
-		{slots: 1, it-tomePage-hill: 10}
-		{slots: 2, it-tomePage-waterDrain: 10}
-		{slots: 1, it-tomePage-fire: 10}
-		{slots: 1, it-tomePage-fertile: 10}
-		{slots: 1, it-tomePage-dry: 10}
-		{slots: 1, it-tomePage-abomination: 10}
-		{slots: 1, it-tomePage-lake: 10}
-		{slots: 2, it-tomePage-regen: 10}
-		{slots: 2, it-tomePage-shipReturn: 10}
-		{slots: 2, it-tomePage-vision: 10}
-		{slots: 1, it-tomePage-portal: 10}
-		{slots: 2, it-tomePage-eagle: 10}
-		{slots: 2, it-tomePage-wisdom: 10}
-		{slots: 2, it-tomePage-superMove: 10}
-		{slots: 2, it-tomePage-targetTeleport: 10}
-		]
-	}
-
-	{
-		id: evt-opwatch-useEvent
-		select: 
-		[
-		{slots:1, addCharacter: pl-translator}	
-		{slots:1, addCharacter: pl-mountainTrooper}
-		{slots:1, addCharacter: pl-bedouin}
-		{slots:1, addCharacter: pl-trader}
-		{slots:1, addCharacter: pl-soldier-british}
-		{slots:1, addCharacter: pl-soldier-scottish}	
-		{slots:1, addCharacter: pl-sailor}	
-		{slots:1, addCharacter: pl-cultist}	
-		{slots:1, addCharacter: pl-sterling}	
-		{slots:1, addCharacter: pl-missionary}	
-		{slots:1, addCharacter: pl-cook}	
-		{slots:1, addCharacter: pl-artist}
-		{slots:1, addCharacter: pl-tim}	
-		{slots:1, addCharacter: pl-native-starting-scout}
-		{slots:1, addCharacter: pl-native-starting-shaman}	
-		{slots:1, addCharacter: pl-native-starting-warrior}	
-		{slots:1, addCharacter: pl-native-starting-animalHandler}
-		{slots:1, addCharacter: pl-yeti}
-		{slots:1, addCharacter: pl-lizard-warrior}	
-		{slots:1, addCharacter: pl-lizard-shaman}	
-		]
-    }
-	
-	{
-      id: evt-opglasses-useEvent
-      select: 	[
-					{
-          mapScore: 25
-		  standing: 10
-		  funds: 100
-          removeItem: false
-					}
-				]
-    }
-	
-	{
-		targetId: +il-harbor-rations::items
-		it-opchest:1
-		slots: 500
-	}
-	{
-		targetId: +il-harbor-rations::items
-		it-opglasses:1
-		slots: 250
-	}
-	{
-		targetId: +il-harbor-rations::items
-		it-opwatch:1
-		slots: 250
-	}
-	{
-		targetId: +il-harbor-rations::items
-		it-opchoc:1
-		slots: 250
+		import: \OPgear\events.hjson
 	}
 
 	]

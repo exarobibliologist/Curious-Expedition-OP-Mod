@@ -1,0 +1,53 @@
+[
+	{
+		id: sp-OPguy
+		extends: sp-base
+		debugCategory: Modding
+		alwaysUnlocked: true
+		name: OP Character
+		title: txt-sp-inventor-title
+		description: There is no fate but what we make for ourselves
+		health: 40
+		items:
+			{
+				it-opchest:1
+				it-opglasses:1
+				it-opwatch:1
+				it-opchoc:1
+			}
+		levels:
+			[
+				{
+				statuses: st-polymath st-cookSanity-4 st-healer st-opguy-opstatus
+				dice: dc-support-2 dc-support-2 dc-attack-2 dc-attack-2 dc-attack-2 dc-lizard-2 dc-lizard-2 dc-lizard-2 dc-defend-2 dc-defend-2
+				}
+			]
+		flags: +special +humanoid +scientist
+		variations:
+			[
+				{
+				gender: male
+				sprite: sprite_1
+				portrait: face_1
+				miniSprite: miniSprite_1
+				}
+			]
+	}
+	
+	{
+		id: st-opguy-opstatus
+		title: "OverPowered"
+		description: "OverPowered"
+		sprite: res_status_pureMind.png
+		debugCategory: Unit Perk
+		bonus: {maxSanity: +50, combatRoll: 3}
+		isPerk: true
+		dayEvents:
+				{
+			reqAge: 10..
+			resetStatusAge: true
+			items: {il-opchest-treasure: 1,il-opchest-sanity: 5,il-opchest-essentials: 1,il-opchest-shrooms: 1,il-opchest-extras: 1,il-opchest-guns: 1,il-opchest-tomePages: 1}
+				}
+    }
+
+]

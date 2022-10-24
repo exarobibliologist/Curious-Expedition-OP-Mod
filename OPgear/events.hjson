@@ -1,0 +1,194 @@
+[
+	{ 
+	id: evt-opchest-useEvent
+	select: [
+		{slots: 5, items:{il-opchest-treasure: 5}}
+		{slots: 2, items:{il-opchest-sanity: 5}}
+		{slots: 3, items:{il-opchest-essentials: 5}}
+		{slots: 3, items:{il-opchest-shrooms: 5}}
+		{slots: 4, items:{il-opchest-extras: 5}}
+		{slots: 3, items:{il-opchest-guns: 5}}
+		{slots: 2, items:{il-opchest-tomePages: 5}}
+		]
+	}
+
+	{
+    id: il-opchest-treasure
+	items:
+		[
+		{slots: 10, it-painting-shrine-4: 1}
+		{slots: 10, it-painting-location-4: 1}
+		{slots: 10, it-painting-native-4: 1}
+		{slots: 10, it-anthropologicalStudies: 1}
+		{slots: 5, it-animalTooth: 1}
+		{slots: 5, it-elephantTusk: 1}
+		{slots: 5, it-triceratopsHorn: 1}
+		{slots: 5, it-mammothTusk: 1}
+		{slots: 3, it-dinoSkull: 1}
+		{slots: 1, it-treasure-mask: 1}
+		{slots: 1, it-treasure-slokra: 1}
+		{slots: 1, it-treasure-bowl: 1}
+		{slots: 1, it-treasure-lama: 1}
+		{slots: 1, it-treasure-skull: 1}
+		{slots: 1, it-treasure-dagger: 1}
+		{slots: 1, it-treasure-owl: 1}
+		{slots: 1, it-treasure-eagle: 1}
+		{slots: 1, it-treasure-statue: 1}
+		{slots: 1, it-treasure-amulet: 1}
+		{slots: 1, it-treasure-plate: 1}
+		{slots: 1, it-treasure-beauty: 1}
+		{slots: 1, it-treasure-eggplant: 1}
+		]
+	}
+	
+	{
+    id: il-opchest-sanity
+	items:
+		[
+		{slots: 3, it-meat-animal-cooked-perfect: 2}
+		{slots: 2, it-meat-animal-cooked-overcooked: 2}
+		{slots: 2, it-meat-animal-cooked-burnt: 2}
+		{slots: 1, it-meat-animal-cooked-charcoal: 2}
+		{slots: 1, it-meat-raw: 2}
+		{slots: 3, it-chocolate: 2}
+		{slots: 1, it-whisky: 2}
+		{slots: 1, it-redBerries: 2}
+		{slots: 1, it-mango: 2}
+		{slots: 1, it-tinCans: 2}
+		{slots: 1, it-cocaLeaves: 2}
+		{slots: 1, it-muktuk: 2}
+		]
+	}
+
+
+	{
+    id: il-opchest-essentials
+	items:
+		[
+		{slots: 1, it-dynamite: 1}
+		{slots: 1, it-rope: 1}
+		{slots: 1, it-shovel: 1}
+		{slots: 5, it-machete: 1}
+		{slots: 5, it-torch: 1}
+		{slots: 1, it-canvas: 1}
+		{slots: 1, it-climbingGear: 1}
+		{slots: 5, it-firstAid: 1}
+		{slots: 1, it-opradar: 1}
+		{slots: 1, it-opglasses: 1}
+		{slots: 1, it-opwatch: 1}
+		{slots: 1, it-opchoc: 1}
+		]
+	}
+
+	{
+    id: il-opchest-shrooms
+	items:
+		[
+		{slots: 1, it-mushroom-view: 1}
+		{slots: 1, it-mushroom-healing: 1}
+		{slots: 1, it-mushroom-status: 1}
+		{slots: 1, it-mushroom-noAngry: 1}
+		{slots: 1, it-mushroom-capacity: 1}
+		{slots: 1, it-mushroom-view: 1}
+		{slots: 1, it-mushroom-healing: 1}
+		{slots: 1, it-mushroom-status: 1}
+		{slots: 1, it-mushroom-noAngry: 1}
+		{slots: 1, it-mushroom-capacity: 1}
+		]
+	}
+
+	{
+    id: il-opchest-extras
+	items:
+		[
+		{slots: 1, it-binoculars: 1}
+		{slots: 1, it-telescope: 1}
+		{slots: 1, it-sextant: 1}
+		{slots: 1, it-telescope: 1}
+		{slots: 1, it-crystalBall: 1}
+		{slots: 1, it-wadjetEye: 1}
+		{slots: 1, it-necronomicon: 1}
+		{slots: 1, it-obsidianMirror: 1}
+		{slots: 2, it-metalCube: 10}
+		{slots: 2, it-moonStone: 10}
+		{slots: 2, it-pumpkinLantern: 1}
+		]
+	}
+
+	{
+    id: il-opchest-guns
+	items:
+		[
+		{slots: 1, it-pistol: 1}
+		{slots: 5, it-pistol-improved: 1}
+		{slots: 1, it-shotgun: 1}
+		{slots: 5, it-shotgun-improved: 1}
+		{slots: 1, it-rifle: 1}
+		{slots: 5, it-rifle-improved: 1}
+		]
+	}
+
+	{
+    id: il-opchest-tomePages
+    items:
+		[
+		{slots: 2, it-tomePage-randomTeleport: 1}
+		{slots: 1, it-tomePage-healingSprings: 1}
+		{slots: 1, it-tomePage-waterfall: 1}
+		{slots: 1, it-tomePage-hill: 1}
+		{slots: 2, it-tomePage-waterDrain: 1}
+		{slots: 1, it-tomePage-fire: 1}
+		{slots: 1, it-tomePage-fertile: 1}
+		{slots: 1, it-tomePage-dry: 1}
+		{slots: 1, it-tomePage-abomination: 1}
+		{slots: 1, it-tomePage-lake: 1}
+		{slots: 2, it-tomePage-regen: 1}
+		{slots: 2, it-tomePage-shipReturn: 1}
+		{slots: 2, it-tomePage-vision: 1}
+		{slots: 1, it-tomePage-portal: 1}
+		{slots: 2, it-tomePage-eagle: 1}
+		{slots: 2, it-tomePage-wisdom: 1}
+		{slots: 2, it-tomePage-superMove: 1}
+		{slots: 2, it-tomePage-targetTeleport: 1}
+		]
+	}
+
+	{
+		id: evt-opwatch-useEvent
+		select: 
+		[
+		{slots:1, addCharacter: pl-translator}	
+		{slots:1, addCharacter: pl-mountainTrooper}
+		{slots:1, addCharacter: pl-bedouin}
+		{slots:1, addCharacter: pl-trader}
+		{slots:1, addCharacter: pl-soldier-british}
+		{slots:1, addCharacter: pl-soldier-scottish}	
+		{slots:1, addCharacter: pl-sailor}	
+		{slots:1, addCharacter: pl-cultist}	
+		{slots:1, addCharacter: pl-sterling}	
+		{slots:1, addCharacter: pl-missionary}	
+		{slots:1, addCharacter: pl-cook}	
+		{slots:1, addCharacter: pl-artist}
+		{slots:1, addCharacter: pl-tim}	
+		{slots:1, addCharacter: pl-native-starting-scout}
+		{slots:1, addCharacter: pl-native-starting-shaman}	
+		{slots:1, addCharacter: pl-native-starting-warrior}	
+		{slots:1, addCharacter: pl-native-starting-animalHandler}
+		{slots:1, addCharacter: pl-yeti}
+		{slots:1, addCharacter: pl-lizard-warrior}	
+		{slots:1, addCharacter: pl-lizard-shaman}	
+		]
+    }
+	
+	{
+      id: evt-opglasses-useEvent
+      select: 	[
+					{
+          mapScore: 25
+		  standing: 10
+		  funds: 100
+          removeItem: false
+					}
+				]
+    }
+]
