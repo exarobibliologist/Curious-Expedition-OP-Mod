@@ -62,7 +62,6 @@ Radar that reveals all the quest locations on the map.
 Willy Wonka's Everlasting Gobstopper
 -----
 Why didn't I call this OP Chocolate? I don't know.
-
 Click to instantly refill sanity.
 
 # How To Install
