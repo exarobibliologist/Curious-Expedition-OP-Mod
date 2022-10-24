@@ -7,7 +7,12 @@ It contains
 
 OP Character
 -----
-The overpowered lizard warrior "OP Character" - 40 health, comes equipped with the 4 OP objects below)
+A lizard warrior with +40 health, OP Status, only comes equipped with the OP objects below)
+
+OP Status
+-----
+A new bonus status that you can get at the end of a quest. OP Character comes with this status at the beginning of the game.
+`Sanity +50, Combat Rolls +3, also pulls out random items from the OP Chest every few days`
 
 Op Chest
 -----
@@ -20,6 +25,10 @@ Augmented Reality Headset. Improves your view distance a little. Click on the gl
 OP Watch
 -----
 A smartwatch cellphone. Bonus +10 Units for an expedition. Click on the watch to summon a unit to the expedition.
+
+OP Radar
+-----
+Radar that reveals all the quest locations on the map.
 
 Willy Wonka's Everlasting Gobstopper
 -----
