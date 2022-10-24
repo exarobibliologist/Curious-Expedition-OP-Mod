@@ -27,8 +27,8 @@
 			[
 				{
 				gender: male
-				sprite: sprite_1
-				portrait: face_1
+				sprite: OPGuy_sprite_1
+				portrait: OPGuy_face_1
 				miniSprite: miniSprite_1
 				}
 			]

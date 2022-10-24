@@ -15,12 +15,17 @@
 		file: OPgear/modPreview.png
     }
 	{
-		id: sprite_1
+		id: OPGuy_sprite_1
 		file: OPgear/OP_sprite.png
 	}
 	{
-		id: face_1
+		id: OPGuy_face_1
 		file: OPgear/OP_face.png
+	}
+	{
+		id: OPGuy_face_1_end.png
+		type: slotted
+		file: OPgear/OP_face_end.png
 	}
 	{
 		id: miniSprite_1
@@ -46,8 +51,7 @@
 		id: it_radar.png
 		file: OPgear/it_radar.png
     }
-
-  ],
+],
   modEntries:[
 	{
 		import: \OPgear\characters.hjson
