@@ -1,9 +1,10 @@
 # Curious Expedition OP Mod
 OPgear is an overpowered mod for Curious Expedition 1.
 
-This is my first mod. Originally I got the code from other mods published on Steam, but I wasn't happy with how other OP mods played so I tweaked and recoded them, then merged them all together into this mod. This has been recoded so much that it can be considered a new mod, even if the results are similar.
+This is my first mod. I wasn't happy with other OP mods (either too overpowered, or not powered enough) so I tweaked and recoded them, then merged all my little mods together into this mod.
 
-It contains
+This has been recoded so much that it can be considered a new mod, even if the results are similar to other mods.
+
 
 OP Character
 -----
