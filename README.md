@@ -7,11 +7,12 @@ It contains
 
 OP Character
 -----
-A lizard warrior with +40 health, OP Status, only comes equipped with the OP objects below)
+A lizard warrior with +40 health, 4 bonuses (Polymath, Cooking 4, Healer, and OP Status). Only comes equipped with the OP objects below (like you would need anything else!?)
 
 OP Status
 -----
 A new bonus status that you can get at the end of a quest. OP Character comes with this status at the beginning of the game.
+
 `Sanity +50, Combat Rolls +3, also pulls out random items from the OP Chest every few days`
 
 Op Chest
