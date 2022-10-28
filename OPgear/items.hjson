@@ -10,7 +10,112 @@
 		bonus: {capacity: 30}
 		useEvents: evt-opchest-useEvent
 	}
-	
+
+	{
+		id: it-opbag-food
+		name: OP Food Bag
+		description: Bag containing food items to restore sanity.
+		sprite: it_food_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-sanity: 5}
+			removeItem : true
+			}
+	}
+
+	{
+		id: it-opbag-essential
+		name: OP Essentials Bag
+		description: Bag containing essential items for questing.
+		sprite: it_essential_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-essentials: 5}
+			removeItem : true
+			}
+	}
+
+	{
+		id: it-opbag-shrooms
+		name: OP Shrooms Bag
+		description: Bag containing mushrooms. May result in addiction. Use carefully
+		sprite: it_shrooms_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-shrooms: 5}
+			removeItem : true
+			}
+	}
+
+	{
+		id: it-opbag-extras
+		name: OP Extras Bag
+		description: Bag containing additional tools which may be useful to adventurers.
+		sprite: it_extras_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-extras: 5}
+			removeItem : true
+			}
+	}
+
+	{
+		id: it-opbag-guns
+		name: OP Guns Bag
+		description: Bag containing guns. Walk softly and carry a big number of guns.
+		sprite: it_guns_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-guns: 5}
+			removeItem : true
+			}
+	}
+
+	{
+		id: it-opbag-pages
+		name: OP Tome Pages Bag
+		description: Bag containing Tome Pages.
+		sprite: it_pages_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-tomePages: 5}
+			removeItem : true
+			}
+	}
+
+	{
+		id: it-opbag-treasure
+		name: OP Treasure Bag
+		description: Bag containing treasure. You know, the shiny stuff everyone is after.
+		sprite: it_treasure_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-treasure: 5}
+			removeItem : true
+			}
+	}
+
 	{
 		id: it-opglasses
 		name: OP Glasses

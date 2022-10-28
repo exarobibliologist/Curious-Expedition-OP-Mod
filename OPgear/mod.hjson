@@ -4,7 +4,7 @@
     id: OPgear
     name: The OP Gear
     authors: Murf
-    version: "0.3.1.4"
+    version: "0.5"
     preview: treasurechestpic
     description: "OP = OverPowered. If you die while using this, it's your fault."
 	defaultLang: en
@@ -50,6 +50,34 @@
 	{
 		id: it_radar.png
 		file: OPgear/it_radar.png
+    }
+	{
+		id: it_food_bag.png
+		file: OPgear/it_food_bag.png
+    }
+	{
+		id: it_essential_bag.png
+		file: OPgear/it_essential_bag.png
+    }
+	{
+		id: it_shrooms_bag.png
+		file: OPgear/it_shrooms_bag.png
+    }
+	{
+		id: it_extras_bag.png
+		file: OPgear/it_extras_bag.png
+    }
+	{
+		id: it_guns_bag.png
+		file: OPgear/it_guns_bag.png
+    }
+	{
+		id: it_pages_bag.png
+		file: OPgear/it_pages_bag.png
+    }
+	{
+		id: it_treasure_bag.png
+		file: OPgear/it_treasure_bag.png
     }
 ],
   modEntries:[
