@@ -53,19 +53,19 @@
     }
 	{
 		id: it_food_bag.png
-		file: OPgear/it_food_bag.png
+		file: OPgear/food.png
     }
 	{
 		id: it_essential_bag.png
-		file: OPgear/it_essential_bag.png
+		file: OPgear/more.png
     }
 	{
 		id: it_shrooms_bag.png
-		file: OPgear/it_shrooms_bag.png
+		file: OPgear/mushroom.png
     }
 	{
 		id: it_extras_bag.png
-		file: OPgear/it_extras_bag.png
+		file: OPgear/add.png
     }
 	{
 		id: it_guns_bag.png
@@ -73,11 +73,15 @@
     }
 	{
 		id: it_pages_bag.png
-		file: OPgear/it_pages_bag.png
+		file: OPgear/pages.png
     }
 	{
 		id: it_treasure_bag.png
-		file: OPgear/it_treasure_bag.png
+		file: OPgear/bag3.png
+    }
+	{
+		id: it_eggs_bag.png
+		file: OPgear/bag7.png
     }
 ],
   modEntries:[

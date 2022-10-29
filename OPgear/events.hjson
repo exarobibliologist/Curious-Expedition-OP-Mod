@@ -2,13 +2,14 @@
 	{ 
 	id: evt-opchest-useEvent
 	select: [
-		{slots: 2, items:{it-opbag-food: 1}}
-		{slots: 3, items:{it-opbag-essential: 1}}
-		{slots: 3, items:{it-opbag-shrooms: 1}}
-		{slots: 4, items:{it-opbag-extras: 1}}
-		{slots: 3, items:{it-opbag-guns: 1}}
-		{slots: 2, items:{it-opbag-pages: 1}}
-		{slots: 5, items:{it-opbag-treasure: 1}}
+		{slots: 2, items:{it-opbag-food: 10}}
+		{slots: 10, items: {it-opbag-treasure: 1,it-opbag-food: 1,it-opbag-essential: 1,it-opbag-shrooms: 1,it-opbag-extras: 1,it-opbag-guns: 1,it-opbag-pages: 1,it-opbag-eggs: 1}}
+		{slots: 3, items:{it-opbag-essential: 10}}
+		{slots: 3, items:{it-opbag-shrooms: 10}}
+		{slots: 4, items:{it-opbag-extras: 10}}
+		{slots: 3, items:{it-opbag-guns: 10}}
+		{slots: 2, items:{it-opbag-pages: 10}}
+		{slots: 5, items:{it-opbag-treasure: 10}}
 		]
 	}
 
@@ -46,14 +47,14 @@
 	items:
 		[
 		{slots: 3, it-meat-animal-cooked-perfect: 2}
-		{slots: 2, it-meat-animal-cooked-overcooked: 2}
-		{slots: 2, it-meat-animal-cooked-burnt: 2}
-		{slots: 1, it-meat-animal-cooked-charcoal: 2}
+		{slots: 3, it-meat-animal-cooked-overcooked: 2}
+		{slots: 3, it-meat-animal-cooked-burnt: 2}
+		{slots: 2, it-meat-animal-cooked-charcoal: 2}
 		{slots: 1, it-meat-raw: 2}
 		{slots: 3, it-chocolate: 2}
-		{slots: 1, it-whisky: 2}
-		{slots: 1, it-redBerries: 2}
-		{slots: 1, it-mango: 2}
+		{slots: 2, it-whisky: 2}
+		{slots: 2, it-redBerries: 2}
+		{slots: 2, it-mango: 2}
 		{slots: 1, it-tinCans: 2}
 		{slots: 1, it-cocaLeaves: 2}
 		{slots: 1, it-muktuk: 2}
@@ -68,15 +69,12 @@
 		{slots: 1, it-dynamite: 1}
 		{slots: 1, it-rope: 1}
 		{slots: 1, it-shovel: 1}
-		{slots: 5, it-machete: 1}
-		{slots: 5, it-torch: 1}
+		{slots: 1, it-machete: 1}
+		{slots: 1, it-torch: 1}
 		{slots: 1, it-canvas: 1}
 		{slots: 1, it-climbingGear: 1}
-		{slots: 5, it-firstAid: 1}
+		{slots: 1, it-firstAid: 1}
 		{slots: 1, it-opradar: 1}
-		{slots: 1, it-opglasses: 1}
-		{slots: 1, it-opwatch: 1}
-		{slots: 1, it-opchoc: 1}
 		]
 	}
 
@@ -149,6 +147,25 @@
 		{slots: 2, it-tomePage-wisdom: 1}
 		{slots: 2, it-tomePage-superMove: 1}
 		{slots: 2, it-tomePage-targetTeleport: 1}
+		]
+	}
+
+	{
+    id: il-opchest-eggs
+    items:
+		[
+		{slots: 1, it-egg-raptor: 1}
+		{slots: 1, it-egg-tortoise: 1}
+		{slots: 1, it-egg-raptor: 1}
+		{slots: 1, it-egg-tortoise: 1}
+		{slots: 1, it-egg-raptor: 1}
+		{slots: 1, it-egg-tortoise: 1}
+		{slots: 1, it-egg-raptor: 1}
+		{slots: 1, it-egg-tortoise: 1}
+		{slots: 1, it-egg-raptor: 1}
+		{slots: 1, it-egg-tortoise: 1}
+		{slots: 1, it-egg-raptor: 1}
+		{slots: 1, it-egg-tortoise: 1}
 		]
 	}
 

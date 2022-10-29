@@ -2,7 +2,7 @@
 	{
 		id: it-opchest
 		name: OP Chest
-		description: Bag of Holding. Never run out of items or space.
+		description: "Bag of Holding. Never run out of items or space."
 		sprite: it_opchest.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -14,7 +14,7 @@
 	{
 		id: it-opbag-food
 		name: OP Food Bag
-		description: Bag containing food items to restore sanity.
+		description: "Bag containing food items to restore sanity."
 		sprite: it_food_bag.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -29,7 +29,7 @@
 	{
 		id: it-opbag-essential
 		name: OP Essentials Bag
-		description: Bag containing essential items for questing.
+		description: "Bag containing essential items for questing."
 		sprite: it_essential_bag.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -44,7 +44,7 @@
 	{
 		id: it-opbag-shrooms
 		name: OP Shrooms Bag
-		description: Bag containing mushrooms. May result in addiction. Use carefully
+		description: "Bag containing mushrooms. May result in addiction. Use carefully."
 		sprite: it_shrooms_bag.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -59,7 +59,7 @@
 	{
 		id: it-opbag-extras
 		name: OP Extras Bag
-		description: Bag containing additional tools which may be useful to adventurers.
+		description: "Bag containing additional tools which may be useful to adventurers."
 		sprite: it_extras_bag.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -74,7 +74,7 @@
 	{
 		id: it-opbag-guns
 		name: OP Guns Bag
-		description: Bag containing guns. Walk softly and carry a big number of guns.
+		description: "Bag containing guns. Walk softly and carry a big number of guns."
 		sprite: it_guns_bag.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -89,7 +89,7 @@
 	{
 		id: it-opbag-pages
 		name: OP Tome Pages Bag
-		description: Bag containing Tome Pages.
+		description: "Bag containing Tome Pages."
 		sprite: it_pages_bag.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -104,7 +104,7 @@
 	{
 		id: it-opbag-treasure
 		name: OP Treasure Bag
-		description: Bag containing treasure. You know, the shiny stuff everyone is after.
+		description: "Bag containing treasure. You know, the shiny stuff everyone is after."
 		sprite: it_treasure_bag.png
 		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
 		noWeight: true
@@ -117,9 +117,24 @@
 	}
 
 	{
+		id: it-opbag-eggs
+		name: OP Eggs Bag
+		description: "Bag containing tortoise and raptor eggs. It's an Eggs Bag, not an Eggs Box."
+		sprite: it_eggs_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opchest-eggs: 5}
+			removeItem : true
+			}
+	}
+
+	{
 		id: it-opglasses
 		name: OP Glasses
-		description: Augmented Reality Headset
+		description: "Augmented Reality Headset. Bonus: View Distance +1. +Score +Standing +Funds on click"
 		sprite: it_opglasses.png
 		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
 		noWeight: true
@@ -131,7 +146,7 @@
 	{
 		id: it-opwatch
 		name: OP Watch
-		description: Smart Watch with Unlimited Portal Connection
+		description: "Smart Watch with Unlimited Portal Connection. Bonus: Unit Count +10. Summon Unit on click."
 		sprite: it_opwatch.png
 		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
 		noWeight: true
@@ -143,7 +158,7 @@
 	{
 		id: it-opchoc
 		name: Willy Wonka's Everlasting Gobstopper
-		description: The Everlasting Chocolate Bar
+		description: "The Everlasting Chocolate Bar. Refills Sanity to Max on click"
 		sprite: it_opchoc.png
 		value: {base: 0, mission: 200, polarStation: 200, village: 200, karma: 200}
 		noWeight: true
@@ -200,32 +215,29 @@
 	{
 		targetId: +il-harbor-rations::items
 		it-opchest:1
-		slots: 500
+		it-opradar:1
+		slots: 250
 	}
 
 	{
 		targetId: +il-harbor-rations::items
 		it-opglasses:1
+		it-opradar:1
 		slots: 250
 	}
 
 	{
 		targetId: +il-harbor-rations::items
 		it-opwatch:1
+		it-opradar:1
 		slots: 250
 	}
 
 	{
 		targetId: +il-harbor-rations::items
 		it-opchoc:1
+		it-opradar:1
 		slots: 250
 	}
-	
-		{
-		targetId: +il-harbor-rations::items
-		it-opradar:1
-		slots: 500
-	}
-
 
 ]
