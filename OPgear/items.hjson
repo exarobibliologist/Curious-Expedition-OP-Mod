@@ -21,7 +21,7 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-sanity: 5}
+			items:{il-opbag-food: 5}
 			removeItem : true
 			}
 	}
@@ -36,7 +36,7 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-essentials: 5}
+			items:{il-opbag-essentials: 5}
 			removeItem : true
 			}
 	}
@@ -51,7 +51,7 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-shrooms: 5}
+			items:{il-opbag-shrooms: 5}
 			removeItem : true
 			}
 	}
@@ -66,7 +66,7 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-extras: 5}
+			items:{il-opbag-extras: 5}
 			removeItem : true
 			}
 	}
@@ -81,7 +81,7 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-guns: 5}
+			items:{il-opbag-guns: 5}
 			removeItem : true
 			}
 	}
@@ -96,7 +96,7 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-tomePages: 5}
+			items:{il-opbag-tomePages: 5}
 			removeItem : true
 			}
 	}
@@ -111,7 +111,7 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-treasure: 5}
+			items:{il-opbag-treasure: 5}
 			removeItem : true
 			}
 	}
@@ -126,7 +126,22 @@
 		maxStack: 99
 		useEvents:
 			{
-			items:{il-opchest-eggs: 5}
+			items:{il-opbag-eggs: 5}
+			removeItem : true
+			}
+	}
+
+	{
+		id: it-opbag-music
+		name: OP Music Bag
+		description: "Bag containing musical instruments."
+		sprite: it_music_bag.png
+		value: {base: 0, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		useEvents:
+			{
+			items:{il-opbag-music: 5}
 			removeItem : true
 			}
 	}
@@ -215,19 +230,6 @@
 	{
 		targetId: +il-harbor-rations::items
 		it-opchest:1
-		it-opradar:1
-		slots: 250
-	}
-
-	{
-		targetId: +il-harbor-rations::items
-		it-opglasses:1
-		it-opradar:1
-		slots: 250
-	}
-
-	{
-		targetId: +il-harbor-rations::items
 		it-opwatch:1
 		it-opradar:1
 		slots: 250
@@ -235,9 +237,9 @@
 
 	{
 		targetId: +il-harbor-rations::items
+		it-opglasses:1
 		it-opchoc:1
 		it-opradar:1
 		slots: 250
 	}
-
 ]

@@ -1,21 +1,28 @@
 [
 	{ 
-	id: evt-opchest-useEvent
-	select: [
-		{slots: 2, items:{it-opbag-food: 10}}
-		{slots: 10, items: {it-opbag-treasure: 1,it-opbag-food: 1,it-opbag-essential: 1,it-opbag-shrooms: 1,it-opbag-extras: 1,it-opbag-guns: 1,it-opbag-pages: 1,it-opbag-eggs: 1}}
-		{slots: 3, items:{it-opbag-essential: 10}}
-		{slots: 3, items:{it-opbag-shrooms: 10}}
-		{slots: 4, items:{it-opbag-extras: 10}}
-		{slots: 3, items:{it-opbag-guns: 10}}
-		{slots: 2, items:{it-opbag-pages: 10}}
-		{slots: 5, items:{it-opbag-treasure: 10}}
+		id: evt-opchest-useEvent
+		select: [
+		{slots: 1, items:{it-opbag-food: 2, it-opbag-shrooms: 5, it-opbag-pages: 1, it-opbag-treasure: 6, it-opbag-essential: 5, it-opbag-eggs: 3, it-opbag-extras: 4}}
+		{slots: 1, items:{it-opbag-eggs: 5, it-opbag-essential: 4, it-opbag-music: 4, it-opbag-guns: 6, it-opbag-shrooms: 3, it-opbag-food: 6, it-opbag-extras: 5}}
+		{slots: 1, items:{it-opbag-pages: 5, it-opbag-guns: 5, it-opbag-shrooms: 4, it-opbag-essential: 4, it-opbag-treasure: 2, it-opbag-extras: 4, it-opbag-food: 4}}
+		{slots: 1, items:{it-opbag-treasure: 6, it-opbag-music: 2, it-opbag-essential: 4, it-opbag-eggs: 5, it-opbag-shrooms: 1, it-opbag-guns: 5, it-opbag-food: 5}}
+		{slots: 1, items:{it-opbag-extras: 1, it-opbag-treasure: 6, it-opbag-food: 5, it-opbag-essential: 2, it-opbag-guns: 2, it-opbag-eggs: 3, it-opbag-pages: 4}}
+		{slots: 1, items:{it-opbag-music: 6, it-opbag-treasure: 2, it-opbag-extras: 2, it-opbag-shrooms: 2, it-opbag-eggs: 1, it-opbag-essential: 2, it-opbag-pages: 6}}
+		{slots: 1, items:{it-opbag-extras: 6, it-opbag-guns: 6, it-opbag-pages: 4, it-opbag-shrooms: 5, it-opbag-music: 6, it-opbag-food: 5, it-opbag-essential: 2}}
+		{slots: 1, items:{it-opbag-shrooms: 4, it-opbag-food: 4, it-opbag-pages: 6, it-opbag-music: 4, it-opbag-extras: 3, it-opbag-guns: 1, it-opbag-eggs: 4}}
+		{slots: 1, items:{it-opbag-eggs: 6, it-opbag-treasure: 5, it-opbag-food: 6, it-opbag-essential: 5, it-opbag-shrooms: 2, it-opbag-music: 4, it-opbag-extras: 4}}
+		{slots: 1, items:{it-opbag-food: 6, it-opbag-pages: 4, it-opbag-music: 1, it-opbag-shrooms: 1, it-opbag-essential: 5, it-opbag-eggs: 2, it-opbag-guns: 3}}
+		{slots: 1, items:{it-opbag-music: 5, it-opbag-extras: 5, it-opbag-treasure: 2, it-opbag-shrooms: 3, it-opbag-eggs: 4, it-opbag-guns: 6, it-opbag-pages: 2}}
+		{slots: 1, items:{it-opbag-eggs: 3, it-opbag-extras: 4, it-opbag-guns: 2, it-opbag-treasure: 6, it-opbag-music: 3, it-opbag-pages: 5, it-opbag-food: 4}}
+		{slots: 1, items:{it-opbag-music: 2, it-opbag-eggs: 2, it-opbag-pages: 6, it-opbag-extras: 3, it-opbag-guns: 4, it-opbag-food: 6, it-opbag-shrooms: 2}}
+		{slots: 1, items:{it-opbag-eggs: 3, it-opbag-music: 4, it-opbag-treasure: 1, it-opbag-food: 2, it-opbag-pages: 4, it-opbag-shrooms: 3, it-opbag-extras: 6}}
+		{slots: 1, items:{it-opbag-pages: 3, it-opbag-essential: 2, it-opbag-extras: 6, it-opbag-shrooms: 6, it-opbag-music: 4, it-opbag-treasure: 4, it-opbag-food: 1}}
 		]
 	}
 
 	{
-    id: il-opchest-treasure
-	items:
+		id: il-opbag-treasure
+		items:
 		[
 		{slots: 10, it-painting-shrine-4: 1}
 		{slots: 10, it-painting-location-4: 1}
@@ -43,8 +50,8 @@
 	}
 	
 	{
-    id: il-opchest-sanity
-	items:
+		id: il-opbag-food
+		items:
 		[
 		{slots: 3, it-meat-animal-cooked-perfect: 2}
 		{slots: 3, it-meat-animal-cooked-overcooked: 2}
@@ -63,8 +70,8 @@
 
 
 	{
-    id: il-opchest-essentials
-	items:
+		id: il-opbag-essentials
+		items:
 		[
 		{slots: 1, it-dynamite: 1}
 		{slots: 1, it-rope: 1}
@@ -79,8 +86,8 @@
 	}
 
 	{
-    id: il-opchest-shrooms
-	items:
+		id: il-opbag-shrooms
+		items:
 		[
 		{slots: 1, it-mushroom-view: 1}
 		{slots: 1, it-mushroom-healing: 1}
@@ -96,8 +103,8 @@
 	}
 
 	{
-    id: il-opchest-extras
-	items:
+		id: il-opbag-extras
+		items:
 		[
 		{slots: 1, it-binoculars: 1}
 		{slots: 1, it-telescope: 1}
@@ -113,8 +120,8 @@
 	}
 
 	{
-    id: il-opchest-guns
-	items:
+		id: il-opbag-guns
+		items:
 		[
 		{slots: 1, it-pistol: 1}
 		{slots: 5, it-pistol-improved: 1}
@@ -126,8 +133,8 @@
 	}
 
 	{
-    id: il-opchest-tomePages
-    items:
+		id: il-opbag-tomePages
+		items:
 		[
 		{slots: 2, it-tomePage-randomTeleport: 1}
 		{slots: 1, it-tomePage-healingSprings: 1}
@@ -151,8 +158,8 @@
 	}
 
 	{
-    id: il-opchest-eggs
-    items:
+		id: il-opbag-eggs
+		items:
 		[
 		{slots: 1, it-egg-raptor: 1}
 		{slots: 1, it-egg-tortoise: 1}
@@ -166,6 +173,22 @@
 		{slots: 1, it-egg-tortoise: 1}
 		{slots: 1, it-egg-raptor: 1}
 		{slots: 1, it-egg-tortoise: 1}
+		]
+	}
+
+	{
+		id: il-opbag-music
+		items:
+		[
+		{slots: 1, it-bongos: 1}
+		{slots: 1, it-bongosTuned: 1}
+		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-bongos: 1}
+		{slots: 1, it-bongosTuned: 1}
+		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-bongos: 1}
+		{slots: 1, it-bongosTuned: 1}
+		{slots: 1, it-hornFlute: 1}
 		]
 	}
 

@@ -83,6 +83,10 @@
 		id: it_eggs_bag.png
 		file: OPgear/bag7.png
     }
+	{
+		id: it_music_bag.png
+		file: OPgear/music.png
+    }
 ],
   modEntries:[
 	{

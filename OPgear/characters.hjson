@@ -46,7 +46,7 @@
 				{
 			reqAge: 10..
 			resetStatusAge: true
-			items: {it-opbag-treasure: 1,it-opbag-food: 1,it-opbag-essential: 1,it-opbag-shrooms: 1,it-opbag-extras: 1,it-opbag-guns: 1,it-opbag-pages: 1}
+			items: {it-opbag-treasure: 1,it-opbag-food: 1,it-opbag-essential: 1,it-opbag-shrooms: 1,it-opbag-extras: 1,it-opbag-guns: 1,it-opbag-pages: 1,it-opbag-eggs: 1,it-opbag-music: 1}
 				}
     }
 
