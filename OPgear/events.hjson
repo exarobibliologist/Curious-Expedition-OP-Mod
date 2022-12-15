@@ -2,11 +2,7 @@
 	{ 
 		id: evt-opchest-useEvent
 		select: [
-		{slots: 10, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1}}
-		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opglasses: 1}}
-		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opwatch: 1}}
-		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opchoc: 1}}
-		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opradar: 1}}
+		{slots: 10, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1}}
 		]
 	}
 
@@ -55,6 +51,7 @@
 		{slots: 1, it-tinCans: 2}
 		{slots: 3, it-cocaLeaves: 2}
 		{slots: 1, it-muktuk: 2}
+		{slots: 1, it-opchoc: 1}
 		]
 	}
 
@@ -106,6 +103,8 @@
 		{slots: 2, it-metalCube: 10}
 		{slots: 2, it-moonStone: 10}
 		{slots: 2, it-pumpkinLantern: 1}
+		{slots: 2, it-opglasses: 1}
+		{slots: 2, it-opwatch: 1}
 		]
 	}
 
@@ -155,14 +154,6 @@
 		{slots: 1, it-egg-tortoise: 1}
 		{slots: 1, it-egg-raptor: 1}
 		{slots: 1, it-egg-tortoise: 1}
-		{slots: 1, it-egg-raptor: 1}
-		{slots: 1, it-egg-tortoise: 1}
-		{slots: 1, it-egg-raptor: 1}
-		{slots: 1, it-egg-tortoise: 1}
-		{slots: 1, it-egg-raptor: 1}
-		{slots: 1, it-egg-tortoise: 1}
-		{slots: 1, it-egg-raptor: 1}
-		{slots: 1, it-egg-tortoise: 1}
 		]
 	}
 
@@ -179,6 +170,22 @@
 		{slots: 1, it-bongos: 1}
 		{slots: 1, it-bongosTuned: 1}
 		{slots: 1, it-hornFlute: 1}
+		]
+	}
+
+	{
+		id: il-opbag-quest
+		items:
+		[
+		{slots: 1, it-bongos: 1}
+		{slots: 1, it-bongosTuned: 1}
+		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-pelt-hyena-black: 1}
+		{slots: 1, it-familyAmulet: 1}
+		{slots: 1, it-quest-5-decoration: 1}
+		{slots: 1, it-quest-1-letter: 1}
+		{slots: 1, it-box-schroedinger: 1}
+		{slots: 1, it-idol: 1}
 		]
 	}
 

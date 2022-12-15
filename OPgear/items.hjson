@@ -156,6 +156,22 @@
 	}
 
 	{
+		id: it-opbag-quest
+		name: OP Quest Bag
+		description: "Bag containing quest items for easy completion."
+		sprite: it_quest_bag.png
+		value: {base: 1000, mission: 1000, polarStation: 1000, village: 1000, karma: 1000}
+		noWeight: true
+		maxStack: 99
+		autoRemove: true
+		useEvents:
+			{
+			items:{il-opbag-quest: 5}
+			removeItem : true
+			}
+	}
+
+	{
 		id: it-opglasses
 		name: OP Glasses
 		description: "Augmented Reality Headset. Bonus: View Distance +1. +Score +Standing +Funds on click"

@@ -87,6 +87,10 @@
 		id: it_music_bag.png
 		file: OPgear/music.png
     }
+	{
+		id: it_quest_bag.png
+		file: OPgear/coins.png
+    }
 ],
   modEntries:[
 	{
