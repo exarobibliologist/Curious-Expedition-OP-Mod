@@ -60,14 +60,15 @@
 		id: il-opbag-essentials
 		items:
 		[
-		{slots: 1, it-dynamite: 1}
-		{slots: 1, it-rope: 1}
-		{slots: 1, it-shovel: 1}
-		{slots: 1, it-machete: 1}
-		{slots: 1, it-torch: 1}
-		{slots: 1, it-canvas: 1}
-		{slots: 1, it-climbingGear: 1}
-		{slots: 1, it-firstAid: 1}
+		{slots: 1, it-dynamite: 5}
+		{slots: 1, it-rope: 5}
+		{slots: 1, it-shovel: 5}
+		{slots: 1, it-machete: 5}
+		{slots: 1, it-torch: 5}
+		{slots: 1, it-canvas: 5}
+		{slots: 1, it-miniPuppets: 5}
+		{slots: 1, it-climbingGear: 5}
+		{slots: 1, it-firstAid: 5}
 		{slots: 1, it-opradar: 1}
 		]
 	}
