@@ -12,12 +12,29 @@ OP Character
 -----
 Only comes eqipped with the OP objects listed below (like you would need anything else!?)
 
-A lizard warrior with +40 health, and 4 perks
+A overpowered lizard warrior with +40 health, and several perks
 
 ```
 Polymath - Allows player to choose between 5 perks instead of 3.
 Culinary Finesse - Can cook meat to increase sanity regeneration.
-Healer - Is capable of treating wounds. Grants 25% health regeneration to all non-animal trek members. 
+Healer - Is capable of treating wounds. Grants 25% health regeneration to all non-animal trek members.
+Climber - Reduced move cost when crossing hills.
+Explosion Expert - Increased radius of dynamite explosions.
+OP Status - See below for details
+```
+
+OP Character Balanced
+-----
+Only comes eqipped with the OP objects listed below (like you would need anything else!?)
+
+A normal lizard warrior with several perks
+
+```
+Polymath - Allows player to choose between 5 perks instead of 3.
+Culinary Finesse - Can cook meat to increase sanity regeneration.
+Healer - Is capable of treating wounds. Grants 25% health regeneration to all non-animal trek members.
+Climber - Reduced move cost when crossing hills.
+Explosion Expert - Increased radius of dynamite explosions.
 OP Status - See below for details
 ```
 
@@ -30,7 +47,7 @@ The perk that OP Character comes with this status at the beginning of the game. 
 ```
 Sanity +50
 Combat Rolls +3
-Pulls out random items from a personal OP Chest every few days - This is the easiest way I've ever seen to overload an inventory!
+Pulls out bags from a personal OP Chest every few days - This is the easiest way I've ever seen to overload an inventory!
 ```
 
 Items
@@ -40,13 +57,21 @@ Op Chest
 -----
 ```
 +30 Capacity
-Click on the bag to pull random useful items and treasure out.
+Click on the Chest to pull out Op Bags
+```
+
+Op Bags
+-----
+```
+Themed bags which contain gear, quest items, and treasure to keep your expedition going strong!
 ```
 
 OP Glasses
 -----
+```
 Improves your view distance a little.
 Click on the glasses to get bonus Score, Standing, and Funds
+```
 
 OP Watch
 -----
@@ -57,12 +82,16 @@ Click on the watch to summon a unit to the expedition.
 
 OP Radar
 -----
+```
 Radar that reveals all the quest locations on the map.
+```
 
 Willy Wonka's Everlasting Gobstopper
 -----
+```
 Why didn't I call this OP Chocolate? I don't know.
 Click to instantly refill sanity.
+```
 
 # How To Install
 

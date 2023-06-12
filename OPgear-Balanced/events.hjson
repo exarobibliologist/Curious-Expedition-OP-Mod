@@ -2,7 +2,17 @@
 	{ 
 		id: evt-opchest-useEvent
 		select: [
-		{slots: 10, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1}}
+		{slots: 1, items:{it-opbag-food: 1}}
+		{slots: 1, items:{it-opbag-essential: 1}}
+		{slots: 1, items:{it-opbag-shrooms: 1}}
+		{slots: 1, items:{it-opbag-extras: 1}}
+		{slots: 1, items:{it-opbag-guns: 1}}
+		{slots: 1, items:{it-opbag-pages: 1}}
+		{slots: 1, items:{it-opbag-treasure: 1}}
+		{slots: 1, items:{it-opbag-eggs: 1}}
+		{slots: 1, items:{it-opbag-music: 1}}
+		{slots: 1, items:{it-opbag-quest: 1}}
+		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1}}
 		]
 	}
 

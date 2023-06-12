@@ -7,7 +7,7 @@
 		name: OP Character
 		title: txt-sp-inventor-title
 		description: There is no fate but what we make for ourselves
-		health: 40
+		health: 10
 		items:
 			{
 				it-opchest:1
@@ -19,7 +19,7 @@
 			[
 				{
 				statuses: st-polymath st-cookSanity-4 st-healer st-climber st-explosionExpert st-opguy-opstatus
-				dice: dc-support-2 dc-support-2 dc-defend-2 dc-defend-2 dc-attack-2 dc-attack-2 dc-lizard-2 dc-lizard-2
+				dice: dc-support-2 dc-defend-2 dc-attack-2 dc-lizard-2
 				}
 			]
 		flags: +special +humanoid +scientist

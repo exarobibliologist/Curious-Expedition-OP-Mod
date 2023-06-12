@@ -1,0 +1,109 @@
+{
+  modInfo:
+  {
+    id: OPgear-Balanced
+    name: The OP Gear Balanced
+    authors: Murf
+    version: "0.5"
+    preview: treasurechestpic
+    description: "OP = OverPowered. If you die while using this, it's your fault."
+	defaultLang: en
+  },
+  imageData:[
+    {
+		id: treasurechestpic
+		file: OPgear-Balanced/modPreview.png
+    }
+	{
+		id: OPGuy_sprite_1
+		file: OPgear-Balanced/OP_sprite.png
+	}
+	{
+		id: OPGuy_face_1
+		file: OPgear-Balanced/OP_face.png
+	}
+	{
+		id: OPGuy_face_1_end.png
+		type: slotted
+		file: OPgear-Balanced/OP_face_end.png
+	}
+	{
+		id: miniSprite_1
+		file: OPgear-Balanced/OP_minisprite.png
+	}
+	{
+		id: it_opchest.png
+		file: OPgear-Balanced/it_opchest.png
+    }
+	{
+		id: it_opglasses.png
+		file: OPgear-Balanced/it_opglasses.png
+    }
+	{
+		id: it_opwatch.png
+		file: OPgear-Balanced/it_opwatch.png
+    }
+	{
+		id: it_opchoc.png
+		file: OPgear-Balanced/it_opchoc.png
+    }
+	{
+		id: it_radar.png
+		file: OPgear-Balanced/it_radar.png
+    }
+	{
+		id: it_food_bag.png
+		file: OPgear-Balanced/food.png
+    }
+	{
+		id: it_essential_bag.png
+		file: OPgear-Balanced/more.png
+    }
+	{
+		id: it_shrooms_bag.png
+		file: OPgear-Balanced/mushroom.png
+    }
+	{
+		id: it_extras_bag.png
+		file: OPgear-Balanced/add.png
+    }
+	{
+		id: it_guns_bag.png
+		file: OPgear-Balanced/it_guns_bag.png
+    }
+	{
+		id: it_pages_bag.png
+		file: OPgear-Balanced/pages.png
+    }
+	{
+		id: it_treasure_bag.png
+		file: OPgear-Balanced/bag3.png
+    }
+	{
+		id: it_eggs_bag.png
+		file: OPgear-Balanced/bag7.png
+    }
+	{
+		id: it_music_bag.png
+		file: OPgear-Balanced/music.png
+    }
+	{
+		id: it_quest_bag.png
+		file: OPgear-Balanced/coins.png
+    }
+],
+  modEntries:[
+	{
+		import: \OPgear-Balanced\characters.hjson
+	}
+
+	{
+		import: \OPgear-Balanced\items.hjson
+	}
+
+	{
+		import: \OPgear-Balanced\events.hjson
+	}
+
+	]
+}
