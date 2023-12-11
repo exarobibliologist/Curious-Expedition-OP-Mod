@@ -57,7 +57,7 @@
     }
 	{
 		id: it_essential_bag.png
-		file: OPgear/more.png
+		file: OPgear/essential_bag.png
     }
 	{
 		id: it_shrooms_bag.png
@@ -65,7 +65,7 @@
     }
 	{
 		id: it_extras_bag.png
-		file: OPgear/add.png
+		file: OPgear/extras_bag.png
     }
 	{
 		id: it_guns_bag.png
@@ -77,11 +77,11 @@
     }
 	{
 		id: it_treasure_bag.png
-		file: OPgear/bag3.png
+		file: OPgear/treasure.png
     }
 	{
 		id: it_eggs_bag.png
-		file: OPgear/bag7.png
+		file: OPgear/eggs.png
     }
 	{
 		id: it_music_bag.png
