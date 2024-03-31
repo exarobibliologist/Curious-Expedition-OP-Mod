@@ -2,7 +2,8 @@
 	{ 
 		id: evt-opchest-useEvent
 		select: [
-		{slots: 10, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1}}
+		{slots: 10, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1, it-doombomb: 50, it-opradar: 1}}
+		{slots: 1, items:{it-opglasses: 1, it-opwatch: 1, it-opchoc: 1}}
 		]
 	}
 
@@ -51,7 +52,6 @@
 		{slots: 1, it-tinCans: 2}
 		{slots: 1, it-cocaLeaves: 2}
 		{slots: 1, it-muktuk: 2}
-		{slots: 1, it-opchoc: 1}
 		]
 	}
 
@@ -61,15 +61,14 @@
 		items:
 		[
 		{slots: 1, it-dynamite: 5}
-		{slots: 1, it-rope: 5}
+		{slots: 1, it-rope: 20}
 		{slots: 1, it-shovel: 5}
-		{slots: 1, it-machete: 5}
+		{slots: 1, it-machete: 20}
 		{slots: 1, it-torch: 5}
 		{slots: 1, it-canvas: 5}
 		{slots: 1, it-miniPuppets: 5}
 		{slots: 1, it-climbingGear: 5}
-		{slots: 1, it-firstAid: 5}
-		{slots: 1, it-opradar: 1}
+		{slots: 3, it-firstAid: 5}
 		]
 	}
 
@@ -104,8 +103,6 @@
 		{slots: 2, it-metalCube: 10}
 		{slots: 2, it-moonStone: 10}
 		{slots: 2, it-pumpkinLantern: 1}
-		{slots: 2, it-opglasses: 1}
-		{slots: 2, it-opwatch: 1}
 		]
 	}
 
@@ -126,7 +123,7 @@
 		id: il-opbag-tomePages
 		items:
 		[
-		{slots: 2, it-tomePage-randomTeleport: 1}
+		{slots: 3, it-tomePage-randomTeleport: 1}
 		{slots: 1, it-tomePage-healingSprings: 1}
 		{slots: 1, it-tomePage-waterfall: 1}
 		{slots: 1, it-tomePage-hill: 1}
@@ -142,8 +139,8 @@
 		{slots: 1, it-tomePage-portal: 1}
 		{slots: 2, it-tomePage-eagle: 1}
 		{slots: 2, it-tomePage-wisdom: 1}
-		{slots: 2, it-tomePage-superMove: 1}
-		{slots: 2, it-tomePage-targetTeleport: 1}
+		{slots: 3, it-tomePage-superMove: 1}
+		{slots: 3, it-tomePage-targetTeleport: 1}
 		]
 	}
 
@@ -164,13 +161,13 @@
 		[
 		{slots: 1, it-bongos: 1}
 		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-hornFlute: 5}
 		{slots: 1, it-bongos: 1}
 		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-hornFlute: 5}
 		{slots: 1, it-bongos: 1}
 		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-hornFlute: 5}
 		]
 	}
 
@@ -178,9 +175,6 @@
 		id: il-opbag-quest
 		items:
 		[
-		{slots: 1, it-bongos: 1}
-		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
 		{slots: 1, it-pelt-hyena-black: 1}
 		{slots: 1, it-familyAmulet: 1}
 		{slots: 1, it-quest-5-decoration: 1}
@@ -211,6 +205,7 @@
 		{slots:1, addCharacter: pl-native-starting-shaman}	
 		{slots:1, addCharacter: pl-native-starting-warrior}	
 		{slots:1, addCharacter: pl-native-starting-animalHandler}
+		{slots:1, addCharacter: pl-native-animalHandler-inuit}
 		{slots:1, addCharacter: pl-yeti}
 		{slots:1, addCharacter: pl-lizard-warrior}	
 		{slots:1, addCharacter: pl-lizard-shaman}	
