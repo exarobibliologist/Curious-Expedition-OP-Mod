@@ -12,6 +12,21 @@
 	}
 
 	{
+		id: it-opportal
+		name: OP Portal Gun
+		description: "Boldly going where everyone has gone before"
+		sprite: it_opportal.png
+		value: {base: 100, mission: 100, polarStation: 100, village: 100, karma: 100}
+		noWeight: true
+		maxStack: 1
+		useEvents:
+			{
+				addLocation: {ref: loc-portal, range: ..1}
+				playSound: sfx_tomePage_var1 sfx_tomePage_var2 sfx_tomePage_var3
+			}
+	}
+
+	{
 		id: it-doombomb
 		name: Doom Bomb
 		description: "Big Badda Boom Beta - Blazing Bright then Breathtaking Burning Barbecue"
@@ -101,7 +116,6 @@
 				select: {reqDifficulty: 1..}
 				}
 	}
-
 
 	{
 		id: it-opbag-food
