@@ -14,7 +14,7 @@
 	{
 		id: it-doombomb
 		name: Doom Bomb
-		description: "Big Badda Boom beta. You don't need to be near the explosion site. Go blow up things a long way away!"
+		description: "Big Badda Boom Beta - Blazing Bright then Breathtaking Burning Barbecue"
 		sprite: it_utility_dynamite_1.png
 		debugCategory: utility
 		tempDice: dc-dynamite
@@ -96,7 +96,7 @@
 		camShake: {power: 15, length: 0.3}
 		chat: cl-item-dynamite
 		removeItem: true
-		select: {reqDifficulty: 1.., standing: -1}
+		select: {reqDifficulty: 1..}
     }
   }
 
@@ -264,7 +264,7 @@
 	{
 		id: it-opglasses
 		name: OP Glasses
-		description: "Augmented Reality Headset. Bonus: View Distance +1. +Score +Standing +Funds on click"
+		description: "+1 Augmented Reality Headset. +Score +Standing +Deactivate/Reveal Zones +Block Rivals on click"
 		sprite: it_opglasses.png
 		value: {base: 100, mission: 100, polarStation: 100, village: 100, karma: 100}
 		noWeight: true
@@ -276,7 +276,7 @@
 	{
 		id: it-opwatch
 		name: OP Watch
-		description: "Smart Watch with Unlimited Portal Connection. Bonus: Unit Count +10. Summon Unit on click."
+		description: "Smart Watch with Summoning. Bonus: Unit Count +10. Summon Unit on click."
 		sprite: it_opwatch.png
 		value: {base: 100, mission: 100, polarStation: 100, village: 100, karma: 100}
 		noWeight: true
@@ -287,7 +287,7 @@
 	
 	{
 		id: it-opchoc
-		name: Willy Wonka's Everlasting Gobstopper
+		name: OP Chocolate
 		description: "The Everlasting Chocolate Bar. Refills Sanity to Max on click"
 		sprite: it_opchoc.png
 		value: {base: 100, mission: 100, polarStation: 100, village: 100, karma: 100}

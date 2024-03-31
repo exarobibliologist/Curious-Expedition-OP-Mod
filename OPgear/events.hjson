@@ -11,15 +11,15 @@
 		id: il-opbag-treasure
 		items:
 		[
-		{slots: 10, it-painting-shrine-4: 1}
-		{slots: 10, it-painting-location-4: 1}
-		{slots: 10, it-painting-native-4: 1}
-		{slots: 10, it-anthropologicalStudies: 1}
-		{slots: 5, it-animalTooth: 1}
-		{slots: 5, it-elephantTusk: 1}
-		{slots: 5, it-triceratopsHorn: 1}
-		{slots: 5, it-mammothTusk: 1}
-		{slots: 3, it-dinoSkull: 1}
+		{slots: 5, it-painting-shrine-4: 1}
+		{slots: 5, it-painting-location-4: 1}
+		{slots: 5, it-painting-native-4: 1}
+		{slots: 5, it-anthropologicalStudies: 1}
+		{slots: 1, it-animalTooth: 1}
+		{slots: 1, it-elephantTusk: 1}
+		{slots: 1, it-triceratopsHorn: 1}
+		{slots: 1, it-mammothTusk: 1}
+		{slots: 1, it-dinoSkull: 1}
 		{slots: 1, it-treasure-mask: 1}
 		{slots: 1, it-treasure-slokra: 1}
 		{slots: 1, it-treasure-bowl: 1}
@@ -33,6 +33,14 @@
 		{slots: 1, it-treasure-plate: 1}
 		{slots: 1, it-treasure-beauty: 1}
 		{slots: 1, it-treasure-eggplant: 1}
+		{slots: 1, it-treasure-vase: 1}
+		{slots: 1, it-treasure-lama: 1}
+		{slots: 1, it-treasure-necklace: 1}
+		{slots: 1, it-treasure-coin: 1}
+		{slots: 1, it-treasure-earrings: 1}
+		{slots: 1, it-treasure-head: 1}
+		{slots: 1, it-treasure-goblet: 1}
+		{slots: 1, it-jewels: 2}
 		]
 	}
 	
@@ -213,14 +221,19 @@
     }
 	
 	{
-      id: evt-opglasses-useEvent
-      select: 	[
-					{
-          mapScore: 25
-		  standing: 10
-		  funds: 100
-          removeItem: false
-					}
-				]
+		id: evt-opglasses-useEvent
+		select:
+			[
+				{
+					mapScore: 5
+					standing: 10
+					blockRivals: 5
+					deactivateZones: {radius: 40, turns: 20}
+					reqLocation: {flags: "", range: ..100, locationKnown: false}
+					posTile: {range: ..100, closest: true, locationFlags: "", locationKnown: false}
+					revealTiles: {location: true, centerCam: true}
+					removeItem: false
+				}
+			]
     }
 ]
