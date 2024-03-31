@@ -50,4 +50,20 @@
 				}
     }
 
+	{
+		id: st-opguy-blastermaster
+		title: "Blaster Master"
+		description: "OverPowered"
+		sprite: res_status_pureMind.png
+		debugCategory: Unit Perk
+		bonus: {viewDist: 1.0}
+		isPerk: true
+		dayEvents:
+				{
+			reqAge: 10..
+			resetStatusAge: true
+			items:{it-doombomb: 50, it-opradar: 1}
+				}
+    }
+
 ]

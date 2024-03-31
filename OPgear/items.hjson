@@ -22,83 +22,85 @@
 		value: {base: 10, karma: 1}
 		isWeapon: true
 		maxStack: 200
-			useEvents: {
+			useEvents:
+				{
 				posPunch:
 						{
 					radius: {base: 0, bonus: dynamiteBonus}
 					maxRange: 50
 						}
-		playSound: sfx_explosion_1
-		partyEvents:
-		[
-        {
-			optional: true
-			reqTileFlags: +mountain
-			incAchievement: ach-explode-mountains
-		}
-        {
-			optional: true
-			reqTiles: [tl-volcano-active]
-			incAchievement: ach-volcano-explosion
-        }
-        {
-			replaceTiles:
-			{
-				range: {base: 0, bonus: dynamiteBonus}
-					old:
+				playSound: sfx_explosion_1
+				partyEvents:
 						[
-						tl-mountain
-						tl-corrupted-mountain
-						tl-volcano-active
-						tl-volcano-inactive
-						tl-grass
-						tl-grass-bushes
-						tl-grass-stoneForest
-						tl-dry
-						tl-dry-jungle-thick
-						tl-dry-jungle-light
-						tl-dry-stoneForest
-						tl-jungle-thick
-						tl-jungle-light
-						tl-hill
-						tl-desert
-						tl-cactusForest
-						tl-swamp
-						tl-scorchedEarth
-						tl-deset-stoneForest
-						tl-giantMushrooms
-						tl-glacier-land
-						tl-crystalForest
-						tl-frozenPlains
-						tl-deepSnow
-						tl-plateau
+							{
+								optional: true
+								reqTileFlags: +mountain
+								incAchievement: ach-explode-mountains
+							}
+							{
+								optional: true
+								reqTiles: [tl-volcano-active]
+								incAchievement: ach-volcano-explosion
+							}
+							{
+								replaceTiles:
+									{
+										range: {base: 0, bonus: dynamiteBonus}
+										old:
+											[
+												tl-mountain
+												tl-corrupted-mountain
+												tl-volcano-active
+												tl-volcano-inactive
+												tl-grass
+												tl-grass-bushes
+												tl-grass-stoneForest
+												tl-dry
+												tl-dry-jungle-thick
+												tl-dry-jungle-light
+												tl-dry-stoneForest
+												tl-jungle-thick
+												tl-jungle-light
+												tl-hill
+												tl-desert
+												tl-cactusForest
+												tl-swamp
+												tl-scorchedEarth
+												tl-deset-stoneForest
+												tl-giantMushrooms
+												tl-glacier-land
+												tl-crystalForest
+												tl-frozenPlains
+												tl-deepSnow
+												tl-plateau
+												tl-void
+											]
+										new: tl-scorchedEarth
+									}
+							}
 						]
-					new: tl-scorchedEarth
-			}
-		}
-		]
-		replaceLocations:
-			[
-				{oldFlags: -mountain -settlement, range: {base: 0, bonus: dynamiteBonus}}
-				{oldFlags: +mountain +secret, new: loc-blessingTemple-secret, range: {base: 0, bonus: dynamiteBonus}}
-				{oldFlags: +mountain -secret, range: {base: 0, bonus: dynamiteBonus}}
-			]
-		particle:
-			[
-				pt-explosion-rock
-				pt-explosion-ring
-				pt-explosion-core-1
-				pt-explosion-core-2
-				pt-explosion-core-3
-				pt-explosion-core-4
-				pt-explosion-spark
-			]
-		camShake: {power: 15, length: 0.3}
-		chat: cl-item-dynamite
-		removeItem: true
-		select: {reqDifficulty: 1..}
-    }
-  }
+				replaceLocations:
+					[
+						{oldFlags: -mountain -settlement, range: {base: 0, bonus: dynamiteBonus}}
+						{oldFlags: +mountain +secret, new: loc-blessingTemple-secret, range: {base: 0, bonus: dynamiteBonus}}
+						{oldFlags: +mountain -secret, range: {base: 0, bonus: dynamiteBonus}}
+					]
+				particle:
+					[
+						pt-explosion-rock
+						pt-explosion-ring
+						pt-explosion-core-1
+						pt-explosion-core-2
+						pt-explosion-core-3
+						pt-explosion-core-4
+						pt-explosion-spark
+					]
+				camShake: {power: 15, length: 0.3}
+				chat: cl-item-dynamite
+				removeItem: true
+				select: {reqDifficulty: 1..}
+				}
+	}
 
 
 	{

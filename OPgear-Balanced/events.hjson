@@ -2,17 +2,8 @@
 	{ 
 		id: evt-opchest-useEvent
 		select: [
-		{slots: 1, items:{it-opbag-food: 1}}
-		{slots: 1, items:{it-opbag-essential: 1}}
-		{slots: 1, items:{it-opbag-shrooms: 1}}
-		{slots: 1, items:{it-opbag-extras: 1}}
-		{slots: 1, items:{it-opbag-guns: 1}}
-		{slots: 1, items:{it-opbag-pages: 1}}
-		{slots: 1, items:{it-opbag-treasure: 1}}
-		{slots: 1, items:{it-opbag-eggs: 1}}
-		{slots: 1, items:{it-opbag-music: 1}}
-		{slots: 1, items:{it-opbag-quest: 1}}
-		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1}}
+		{slots: 10, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1, it-doombomb: 50, it-opradar: 1}}
+		{slots: 1, items:{it-opglasses: 1, it-opwatch: 1, it-opchoc: 1}}
 		]
 	}
 
@@ -20,15 +11,15 @@
 		id: il-opbag-treasure
 		items:
 		[
-		{slots: 10, it-painting-shrine-4: 1}
-		{slots: 10, it-painting-location-4: 1}
-		{slots: 10, it-painting-native-4: 1}
-		{slots: 10, it-anthropologicalStudies: 1}
-		{slots: 5, it-animalTooth: 1}
-		{slots: 5, it-elephantTusk: 1}
-		{slots: 5, it-triceratopsHorn: 1}
-		{slots: 5, it-mammothTusk: 1}
-		{slots: 3, it-dinoSkull: 1}
+		{slots: 5, it-painting-shrine-4: 1}
+		{slots: 5, it-painting-location-4: 1}
+		{slots: 5, it-painting-native-4: 1}
+		{slots: 5, it-anthropologicalStudies: 1}
+		{slots: 1, it-animalTooth: 1}
+		{slots: 1, it-elephantTusk: 1}
+		{slots: 1, it-triceratopsHorn: 1}
+		{slots: 1, it-mammothTusk: 1}
+		{slots: 1, it-dinoSkull: 1}
 		{slots: 1, it-treasure-mask: 1}
 		{slots: 1, it-treasure-slokra: 1}
 		{slots: 1, it-treasure-bowl: 1}
@@ -42,6 +33,14 @@
 		{slots: 1, it-treasure-plate: 1}
 		{slots: 1, it-treasure-beauty: 1}
 		{slots: 1, it-treasure-eggplant: 1}
+		{slots: 1, it-treasure-vase: 1}
+		{slots: 1, it-treasure-lama: 1}
+		{slots: 1, it-treasure-necklace: 1}
+		{slots: 1, it-treasure-coin: 1}
+		{slots: 1, it-treasure-earrings: 1}
+		{slots: 1, it-treasure-head: 1}
+		{slots: 1, it-treasure-goblet: 1}
+		{slots: 1, it-jewels: 2}
 		]
 	}
 	
@@ -61,7 +60,6 @@
 		{slots: 1, it-tinCans: 2}
 		{slots: 1, it-cocaLeaves: 2}
 		{slots: 1, it-muktuk: 2}
-		{slots: 1, it-opchoc: 1}
 		]
 	}
 
@@ -71,15 +69,14 @@
 		items:
 		[
 		{slots: 1, it-dynamite: 5}
-		{slots: 1, it-rope: 5}
+		{slots: 1, it-rope: 20}
 		{slots: 1, it-shovel: 5}
-		{slots: 1, it-machete: 5}
+		{slots: 1, it-machete: 20}
 		{slots: 1, it-torch: 5}
 		{slots: 1, it-canvas: 5}
 		{slots: 1, it-miniPuppets: 5}
 		{slots: 1, it-climbingGear: 5}
-		{slots: 1, it-firstAid: 5}
-		{slots: 1, it-opradar: 1}
+		{slots: 3, it-firstAid: 5}
 		]
 	}
 
@@ -114,8 +111,6 @@
 		{slots: 2, it-metalCube: 10}
 		{slots: 2, it-moonStone: 10}
 		{slots: 2, it-pumpkinLantern: 1}
-		{slots: 2, it-opglasses: 1}
-		{slots: 2, it-opwatch: 1}
 		]
 	}
 
@@ -136,7 +131,7 @@
 		id: il-opbag-tomePages
 		items:
 		[
-		{slots: 2, it-tomePage-randomTeleport: 1}
+		{slots: 3, it-tomePage-randomTeleport: 1}
 		{slots: 1, it-tomePage-healingSprings: 1}
 		{slots: 1, it-tomePage-waterfall: 1}
 		{slots: 1, it-tomePage-hill: 1}
@@ -152,8 +147,8 @@
 		{slots: 1, it-tomePage-portal: 1}
 		{slots: 2, it-tomePage-eagle: 1}
 		{slots: 2, it-tomePage-wisdom: 1}
-		{slots: 2, it-tomePage-superMove: 1}
-		{slots: 2, it-tomePage-targetTeleport: 1}
+		{slots: 3, it-tomePage-superMove: 1}
+		{slots: 3, it-tomePage-targetTeleport: 1}
 		]
 	}
 
@@ -174,13 +169,13 @@
 		[
 		{slots: 1, it-bongos: 1}
 		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-hornFlute: 5}
 		{slots: 1, it-bongos: 1}
 		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-hornFlute: 5}
 		{slots: 1, it-bongos: 1}
 		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
+		{slots: 1, it-hornFlute: 5}
 		]
 	}
 
@@ -188,9 +183,6 @@
 		id: il-opbag-quest
 		items:
 		[
-		{slots: 1, it-bongos: 1}
-		{slots: 1, it-bongosTuned: 1}
-		{slots: 1, it-hornFlute: 1}
 		{slots: 1, it-pelt-hyena-black: 1}
 		{slots: 1, it-familyAmulet: 1}
 		{slots: 1, it-quest-5-decoration: 1}
@@ -221,6 +213,7 @@
 		{slots:1, addCharacter: pl-native-starting-shaman}	
 		{slots:1, addCharacter: pl-native-starting-warrior}	
 		{slots:1, addCharacter: pl-native-starting-animalHandler}
+		{slots:1, addCharacter: pl-native-animalHandler-inuit}
 		{slots:1, addCharacter: pl-yeti}
 		{slots:1, addCharacter: pl-lizard-warrior}	
 		{slots:1, addCharacter: pl-lizard-shaman}	
@@ -228,14 +221,19 @@
     }
 	
 	{
-      id: evt-opglasses-useEvent
-      select: 	[
-					{
-          mapScore: 25
-		  standing: 10
-		  funds: 100
-          removeItem: false
-					}
-				]
+		id: evt-opglasses-useEvent
+		select:
+			[
+				{
+					mapScore: 5
+					standing: 10
+					blockRivals: 5
+					deactivateZones: {radius: 40, turns: 20}
+					reqLocation: {flags: "", range: ..100, locationKnown: false}
+					posTile: {range: ..100, closest: true, locationFlags: "", locationKnown: false}
+					revealTiles: {location: true, centerCam: true}
+					removeItem: false
+				}
+			]
     }
 ]
