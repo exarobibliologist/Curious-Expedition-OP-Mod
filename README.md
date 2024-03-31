@@ -38,16 +38,24 @@ Explosion Expert - Increased radius of dynamite explosions.
 OP Status - See below for details
 ```
 
-Perks
+Statuses
 =====
 
-OP Status
+OverPowered
 -----
 The perk that OP Character comes with this status at the beginning of the game. Can also be gained as one of the random perks gained in between quests.
 ```
 Sanity +50
 Combat Rolls +3
-Pulls out bags from a personal OP Chest every few days - This is the easiest way I've ever seen to overload an inventory!
+Pulls out OP bags from thin air every few days
+```
+
+Master Blaster
+-----
+Can be gained as one of the random perks gained in between quests.
+```
+View Distance +1
+Pulls out Doom Bombs, OP Radar, and OP Portal from thin air every few days
 ```
 
 Items
@@ -86,10 +94,21 @@ OP Radar
 Radar that reveals all the quest locations on the map.
 ```
 
-Willy Wonka's Everlasting Gobstopper
+OP Doom Bomb
 -----
 ```
-Why didn't I call this OP Chocolate? I don't know.
+Dynamite with virtually unlimited range. Does not reduce your standing when blowing things up. Can blow up void and replace it with scorched earth (take that Schroedinger!)
+```
+
+OP Portal Gun
+-----
+```
+Works just like a Portal Scroll, except doesn't get used up. Infinite worlds, all ripe to be exploited (I mean, explored.)
+```
+
+OP Chocolate
+-----
+```
 Click to instantly refill sanity.
 ```
 
