@@ -7,7 +7,7 @@
 		name: OP Character
 		title: txt-sp-inventor-title
 		description: There is no fate but what we make for ourselves
-		health: 40
+		health: 20
 		items:
 			{
 				it-opchest:1
@@ -33,7 +33,42 @@
 				}
 			]
 	}
-	
+
+	{
+		id: sp-OPmasterblaster
+		extends: sp-base
+		debugCategory: Modding
+		alwaysUnlocked: true
+		name: OP Master Blaster
+		title: txt-sp-inventor-title
+		description: There is no fate but what we make for ourselves
+		health: 20
+		items:
+			{
+				it-opbag-food:1
+				it-opradar:1
+				it-opportal:1
+				it-doombomb:50
+			}
+		levels:
+			[
+				{
+				statuses: st-polymath st-cookSanity-4 st-healer st-climber st-explosionExpert st-opguy-blastermaster
+				dice: dc-support-2 dc-support-2 dc-defend-2 dc-defend-2 dc-attack-2 dc-attack-2 dc-lizard-2 dc-lizard-2
+				}
+			]
+		flags: +special +humanoid +scientist
+		variations:
+			[
+				{
+				gender: male
+				sprite: OPGuy_sprite_1
+				portrait: OPGuy_face_1
+				miniSprite: miniSprite_1
+				}
+			]
+	}
+
 	{
 		id: st-opguy-opstatus
 		title: "OverPowered"
@@ -46,7 +81,7 @@
 				{
 			reqAge: 10..
 			resetStatusAge: true
-			items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-shrooms: 1, it-opbag-extras: 1, it-opbag-guns: 1, it-opbag-pages: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-music: 1, it-opbag-quest: 1, it-doombomb: 50, it-opradar: 1, it-opportal: 1}
+			items:{it-opchest: 1, it-opradar: 1, it-opportal: 1}
 				}
     }
 
@@ -62,7 +97,7 @@
 				{
 			reqAge: 10..
 			resetStatusAge: true
-			items:{it-doombomb: 50, it-opradar: 1, it-opportal: 1}
+			items:{it-opbag-food: 1, it-doombomb: 10, it-greenbomb: 10, it-opradar: 1, it-opportal: 1}
 				}
     }
 

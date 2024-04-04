@@ -56,6 +56,10 @@
 		file: OPgear/it_opportal.png
     }
 	{
+		id: greenbomb.png
+		file: OPgear/greenbomb.png
+    }
+	{
 		id: it_food_bag.png
 		file: OPgear/food.png
     }
