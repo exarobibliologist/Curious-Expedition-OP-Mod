@@ -47,7 +47,7 @@ The perk that OP Character comes with this status at the beginning of the game. 
 ```
 Sanity +50
 Combat Rolls +3
-Pulls out OP bags from thin air every few days
+Pulls out OP chests from thin air every few days
 ```
 
 Master Blaster
@@ -55,7 +55,7 @@ Master Blaster
 Can be gained as one of the random perks gained in between quests.
 ```
 View Distance +1
-Pulls out Doom Bombs, OP Radar, and OP Portal from thin air every few days
+Pulls out OP chests from thin air every few days
 ```
 
 Items
