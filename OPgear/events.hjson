@@ -3,7 +3,7 @@
 		id: evt-essential-useEvent
 		select:
 		[
-		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-quest: 1, it-opbag-guns: 1, it-opbag-shrooms: 1, it-opbag-pages: 1}}
+		{slots: 1, items:{it-opbag-food: 1, it-opbag-essential: 1, it-opbag-guns: 1, it-opbag-shrooms: 1, it-opbag-pages: 1}}
 		{slots: 1, items:{it-doombomb: 10, it-greenbomb: 10, it-opradar: 1, it-opportal: 1}}
 		]
 	}
@@ -12,7 +12,7 @@
 		id: evt-extras-useEvent
 		select:
 		[
-		{slots: 1, items:{it-opbag-guns: 1, it-opbag-treasure: 1, it-opbag-eggs: 1, it-opbag-quest: 1, it-opbag-music: 1}}
+		{slots: 2, items:{it-opbag-treasure: 1, it-opbag-extras: 1, it-opbag-eggs: 1, it-opbag-quest: 1, it-opbag-music: 1}}
 		{slots: 1, items:{it-opglasses: 1, it-opwatch: 1, it-opchoc: 1}}
 		]
 	}
