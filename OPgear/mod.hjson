@@ -32,8 +32,12 @@
 		file: OPgear/OP_minisprite.png
 	}
 	{
-		id: it_opchest.png
-		file: OPgear/it_opchest.png
+		id: it_chest_essential.png
+		file: OPgear/it_chest_essential.png
+    }
+	{
+		id: it_chest_extras.png
+		file: OPgear/it_chest_extras.png
     }
 	{
 		id: it_opglasses.png

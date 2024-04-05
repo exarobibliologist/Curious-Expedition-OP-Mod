@@ -1,14 +1,26 @@
 [
 	{
-		id: it-opchest
-		name: OP Chest
-		description: "Bag of Holding. Never run out of items or space."
+		id: it-opchest-essential
+		name: Chest of Essentials
+		description: "Bag of Holding. Never run out of the things you need. Drops bags of food, essential, quest, guns, shrooms, pages OR bombs, radar, and portals."
 		sprite: it_opchest.png
 		value: {base: 0, mission: 0, polarStation: 0, village: 0, karma: 0}
 		noWeight: true
 		maxStack: 500
 		bonus: {capacity: 30}
-		useEvents: evt-opchest-useEvent
+		useEvents: evt-essential-useEvent
+	}
+	
+		{
+		id: it-opchest-extras
+		name: Chest of Extras
+		description: "Bag of Holding. Never run out of the extra stuff. Drops bags of guns, treasure, eggs, quest, music OR OPglasses, OPwatch, OPchoc"
+		sprite: it_opchest.png
+		value: {base: 0, mission: 0, polarStation: 0, village: 0, karma: 0}
+		noWeight: true
+		maxStack: 500
+		bonus: {capacity: 30}
+		useEvents: evt-extras-useEvent
 	}
 
 	{
@@ -460,17 +472,33 @@
 
 	{
 		targetId: +il-harbor-rations::items
-		it-opchest:1
+		it-opchest-essential:1
 		slots: 500
 	}
 	{
 		targetId: +il-trade-mission::items
-		it-opchest:1
+		it-opchest-essential:1
 		slots: 500
 	}
 	{
 		targetId: +il-trade-shamanHut::items
-		it-opchest:1
+		it-opchest-essential:1
+		slots: 500
+	}
+
+	{
+		targetId: +il-harbor-rations::items
+		it-opchest-extras:1
+		slots: 500
+	}
+	{
+		targetId: +il-trade-mission::items
+		it-opchest-extras:1
+		slots: 500
+	}
+	{
+		targetId: +il-trade-shamanHut::items
+		it-opchest-extras:1
 		slots: 500
 	}
 ]
