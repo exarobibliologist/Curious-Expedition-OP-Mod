@@ -4,7 +4,7 @@
 		select:
 		[
 		{slots: 1, items:{it-opbag-food: 10, it-opbag-essential: 10, it-opbag-guns: 10, it-opbag-shrooms: 10, it-opbag-pages: 10}}
-		{slots: 1, items:{it-doombomb: 10, it-greenbomb: 10, it-opradar: 10, it-opportal: 10}}
+		{slots: 1, items:{it-doombomb: 100, it-greenbomb: 100, it-opradar: 10, it-opportal: 10}}
 		]
 	}
 
@@ -159,6 +159,8 @@
 		{slots: 2, it-tomePage-wisdom: 1}
 		{slots: 3, it-tomePage-superMove: 1}
 		{slots: 3, it-tomePage-targetTeleport: 1}
+		{slots: 1, it-tomePage-corrupted: 1}
+		{slots: 2, it-tomePage-monsterDen: 1}
 		]
 	}
 
