@@ -11,9 +11,6 @@
 		items:
 			{
 				it-opchest-essential:1
-				it-opglasses:1
-				it-opwatch:1
-				it-opchoc:1
 			}
 		levels:
 			[
@@ -45,10 +42,8 @@
 		health: 20
 		items:
 			{
-				it-opbag-food:1
-				it-opradar:1
-				it-opportal:1
-				it-doombomb:50
+				it-opchest-bombs:1
+				it-opbag-food:10
 			}
 		levels:
 			[

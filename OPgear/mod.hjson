@@ -36,6 +36,10 @@
 		file: OPgear/it_chest_essential.png
     }
 	{
+		id: it_chest_gear.png
+		file: OPgear/it_chest_gear.png
+    }
+	{
 		id: it_chest_extras.png
 		file: OPgear/it_chest_extras.png
     }
@@ -62,6 +66,10 @@
 	{
 		id: greenbomb.png
 		file: OPgear/greenbomb.png
+    }
+	{
+		id: doombomb.png
+		file: OPgear/doombomb.png
     }
 	{
 		id: it_food_bag.png

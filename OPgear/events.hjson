@@ -3,17 +3,23 @@
 		id: evt-essential-useEvent
 		select:
 		[
-		{slots: 1, items:{it-opbag-food: 10, it-opbag-essential: 10, it-opbag-guns: 10, it-opbag-shrooms: 10, it-opbag-pages: 10}}
-		{slots: 1, items:{it-doombomb: 100, it-greenbomb: 100, it-opradar: 10, it-opportal: 10}}
+		{slots: 1, items:{it-opbag-food: 10, it-opbag-essential: 10, it-opbag-guns: 10, it-opbag-shrooms: 10, it-opbag-pages: 10, it-opbag-treasure: 10, it-opbag-extras: 10, it-opbag-eggs: 10, it-opbag-quest: 10, it-opbag-music: 10}}
 		]
 	}
 
 	{ 
-		id: evt-extras-useEvent
+		id: evt-bombs-useEvent
 		select:
 		[
-		{slots: 2, items:{it-opbag-treasure: 10, it-opbag-extras: 10, it-opbag-eggs: 10, it-opbag-quest: 10, it-opbag-music: 10}}
-		{slots: 1, items:{it-opglasses: 1, it-opwatch: 1, it-opchoc: 1}}
+		{slots: 2, items:{it-doombomb: 100, it-greenbomb: 100, it-dynamite: 50}}
+		]
+	}
+
+	{ 
+		id: evt-gear-useEvent
+		select:
+		[
+		{slots: 1, items:{it-opglasses: 1, it-opwatch: 1, it-opchoc: 1, it-opradar: 100, it-opportal: 100}}
 		]
 	}
 
@@ -78,14 +84,13 @@
 		id: il-opbag-essentials
 		items:
 		[
-		{slots: 1, it-dynamite: 5}
 		{slots: 1, it-rope: 20}
 		{slots: 1, it-shovel: 5}
 		{slots: 1, it-machete: 20}
 		{slots: 1, it-torch: 5}
 		{slots: 1, it-canvas: 5}
 		{slots: 1, it-miniPuppets: 5}
-		{slots: 1, it-climbingGear: 5}
+		{slots: 1, it-climbingGear: 20}
 		{slots: 3, it-firstAid: 5}
 		]
 	}

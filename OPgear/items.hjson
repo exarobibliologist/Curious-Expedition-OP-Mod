@@ -1,8 +1,8 @@
 [
 	{
 		id: it-opchest-essential
-		name: Chest of Essentials
-		description: "Bag of Holding. Never run out of the things you need. Drops bags of food, essential, guns, shrooms, pages OR bombs, radar, and portals."
+		name: Chest of Bags
+		description: "Chest of Holding that drops bags of holding. Never run out of the things you need."
 		sprite: it_chest_essential.png
 		value: {base: 0, mission: 0, polarStation: 0, village: 0, karma: 0}
 		noWeight: true
@@ -12,17 +12,30 @@
 		useEvents: evt-essential-useEvent
 	}
 	
-		{
-		id: it-opchest-extras
-		name: Chest of Extras
-		description: "Bag of Holding. Never run out of the extra stuff. Drops bags of treasure, eggs, quest, music OR OPglasses, OPwatch, OPchoc"
+	{
+		id: it-opchest-bombs
+		name: Chest of Bombs
+		description: "Chest of Holding that drops modded bombs and dynamite"
 		sprite: it_chest_extras.png
 		value: {base: 0, mission: 0, polarStation: 0, village: 0, karma: 0}
 		noWeight: true
 		maxStack: 500
 		bonus: {capacity: 30}
 	    noBonusStacking: true
-		useEvents: evt-extras-useEvent
+		useEvents: evt-bombs-useEvent
+	}
+
+	{
+		id: it-opchest-gear
+		name: Chest of Gear
+		description: "Chest of Holding that drops OPglasses, OPwatch, OPchoc, OPradar, and OP Portals"
+		sprite: it_chest_gear.png
+		value: {base: 0, mission: 0, polarStation: 0, village: 0, karma: 0}
+		noWeight: true
+		maxStack: 500
+		bonus: {capacity: 30}
+	    noBonusStacking: true
+		useEvents: evt-gear-useEvent
 	}
 
 	{
@@ -288,7 +301,7 @@
 		id: it-doombomb
 		name: Doom Bomb
 		description: "Big Badda Boom Beta - Blazing Bright then Breathtaking Burning Barbecue"
-		sprite: it_utility_dynamite_1.png
+		sprite: doombomb.png
 		debugCategory: utility
 		tempDice: dc-dynamite
 		maxDice: 10
@@ -476,22 +489,27 @@
 
 	{
 		targetId: +il-harbor-rations::items
-		it-opchest-essential:1, it-opchest-extras:1
+		it-opchest-essential:1, it-opchest-bombs:1, it-opchest-gear:1
 		slots: 500
 	}
 	{
 		targetId: +il-trade-slaver::items
-		it-opchest-essential:1, it-opchest-extras:1
+		it-opchest-essential:1, it-opchest-bombs:1, it-opchest-gear:1
 		slots: 500
 	}
 	{
 		targetId: +il-trade-mission::items
-		it-opchest-essential:1, it-opchest-extras:1
+		it-opchest-essential:1, it-opchest-bombs:1, it-opchest-gear:1
 		slots: 500
 	}
 	{
 		targetId: +il-trade-shamanHut::items
-		it-opchest-essential:1, it-opchest-extras:1
+		it-opchest-essential:1, it-opchest-bombs:1, it-opchest-gear:1
+		slots: 500
+	}
+	{
+		targetId: +il-trade-polarStation-equipment::items
+		it-opchest-essential:1, it-opchest-bombs:1, it-opchest-gear:1
 		slots: 500
 	}
 ]
