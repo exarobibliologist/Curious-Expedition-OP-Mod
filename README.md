@@ -10,7 +10,7 @@ Character
 
 OP Character
 -----
-Only comes eqipped with the OP objects listed below (like you would need anything else!?)
+Only comes equipped with the OP Chest of Bags (but you'll be able to get the other OP gear in short order.)
 
 A overpowered lizard warrior with +40 health, and several perks
 
@@ -23,11 +23,11 @@ Explosion Expert - Increased radius of dynamite explosions.
 OP Status - See below for details
 ```
 
-OP Character Balanced
+Master Blaster
 -----
-Only comes eqipped with the OP objects listed below (like you would need anything else!?)
+Only comes equipped with the OP Chest of Bombs and some Bags of Food (but you'll be able to get the other OP gear in short order.)
 
-A normal lizard warrior with several perks
+A overpowered lizard warrior with +40 health, and several perks
 
 ```
 Polymath - Allows player to choose between 5 perks instead of 3.
@@ -41,21 +41,28 @@ OP Status - See below for details
 Statuses
 =====
 
-OverPowered
+OP Guy Status
 -----
 The perk that OP Character comes with this status at the beginning of the game. Can also be gained as one of the random perks gained in between quests.
 ```
-Sanity +50
-Combat Rolls +3
-Pulls out OP chests from thin air every few days
+Sanity +150
+Combat Rolls +10
 ```
 
-Master Blaster
+OP Blaster Master Status
+-----
+Can be gained as one of the random perks gained in between quests.
+```
+View Distance +2
+```
+
+OverPowered
 -----
 Can be gained as one of the random perks gained in between quests.
 ```
 View Distance +1
-Pulls out OP chests from thin air every few days
+Sanity +150
+Combat Rolls +10
 ```
 
 Items
@@ -94,10 +101,22 @@ OP Radar
 Radar that reveals all the quest locations on the map.
 ```
 
+OP Portal
+-----
+```
+Unlimited portals to other worlds. More places to exploit!! (I mean, explore.)
+```
+
 OP Doom Bomb
 -----
 ```
 Dynamite with virtually unlimited range. Does not reduce your standing when blowing things up. Can blow up void and replace it with scorched earth (take that Schroedinger!)
+```
+
+OP Green Bomb
+-----
+```
+Green Dynamite with virtually unlimited range. Does not reduce your standing when blowing things up. Instead of replacing stuff with scorched earth it replaces it with green earth. Can blow up void and replace it with green earth (take that Schroedinger!)
 ```
 
 OP Portal Gun

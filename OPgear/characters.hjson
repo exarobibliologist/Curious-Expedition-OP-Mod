@@ -1,6 +1,6 @@
 [
 	{
-		id: sp-OPguy
+		id: sp-OP-1
 		extends: sp-base
 		debugCategory: Modding
 		alwaysUnlocked: true
@@ -15,7 +15,7 @@
 		levels:
 			[
 				{
-				statuses: st-polymath st-cookSanity-4 st-healer st-climber st-explosionExpert st-opguy-opstatus
+				statuses: st-polymath st-cookSanity-4 st-healer st-climber st-explosionExpert st-combatChance-4 st-opguy-opstatus
 				dice: dc-support-2 dc-support-2 dc-defend-2 dc-defend-2 dc-attack-2 dc-attack-2 dc-lizard-2 dc-lizard-2
 				}
 			]
@@ -32,7 +32,7 @@
 	}
 
 	{
-		id: sp-OPmasterblaster
+		id: sp-OP-2
 		extends: sp-base
 		debugCategory: Modding
 		alwaysUnlocked: true
@@ -48,7 +48,7 @@
 		levels:
 			[
 				{
-				statuses: st-polymath st-cookSanity-4 st-healer st-climber st-explosionExpert st-opguy-blastermaster
+				statuses: st-polymath st-cookSanity-4 st-healer st-climber st-explosionExpert st-combatChance-4 st-opguy-blastermaster
 				dice: dc-support-2 dc-support-2 dc-defend-2 dc-defend-2 dc-attack-2 dc-attack-2 dc-lizard-2 dc-lizard-2
 				}
 			]
@@ -65,34 +65,90 @@
 	}
 
 	{
+		id: sp-OP-3
+		extends: sp-base
+		debugCategory: Modding
+		alwaysUnlocked: true
+		name: OP Dude
+		title: txt-sp-inventor-title
+		description: There is no fate but what we make for ourselves
+		health: 20
+		items:
+			{
+				it-opchest-gear:1
+			}
+		levels:
+			[
+				{
+				statuses: st-polymath st-cookSanity-4 st-healer st-climber st-explosionExpert st-combatChance-4 st-opguy-dude
+				dice: dc-support-2 dc-support-2 dc-defend-2 dc-defend-2 dc-attack-2 dc-attack-2 dc-lizard-2 dc-lizard-2
+				}
+			]
+		flags: +special +humanoid +scientist
+		variations:
+			[
+				{gender: male, sprite: res_npc_lizard_1.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_2.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_3.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_4.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_5.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_6.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_7.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_8.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_9.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_10.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_11.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_12.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_13.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+				{gender: male, sprite: res_npc_lizard_14.png, portrait: OPGuy_face_1, miniSprite: miniSprite_1}
+			]
+	}
+
+	{
 		id: st-opguy-opstatus
-		title: "OverPowered"
+		title: "OP Guy Status"
 		description: "OverPowered"
 		sprite: res_status_pureMind.png
 		debugCategory: Unit Perk
-		bonus: {maxSanity: +50, combatRoll: 3}
+		bonus: {maxSanity: +150, combatRoll: 10}
 		isPerk: true
 		dayEvents:
 				{
 			reqAge: 10..
 			resetStatusAge: true
-			items:{it-opchest-essential: 1, it-opchest-extras: 1}
+			items:{it-opchest-essential: 1}
 				}
     }
 
 	{
 		id: st-opguy-blastermaster
-		title: "Blaster Master"
+		title: "OP Blaster Master Status"
 		description: "OverPowered"
 		sprite: res_status_pureMind.png
 		debugCategory: Unit Perk
-		bonus: {viewDist: 1.0}
+		bonus: {viewDist: 2.0}
 		isPerk: true
 		dayEvents:
 				{
 			reqAge: 10..
 			resetStatusAge: true
-			items:{it-opchest-essential: 1, it-opchest-extras: 1}
+			items:{it-opchest-bombs: 1}
+				}
+    }
+
+	{
+		id: st-opguy-dude
+		title: "OverPowered"
+		description: "OverPowered"
+		sprite: res_status_pureMind.png
+		debugCategory: Unit Perk
+		bonus: {viewDist: 1.0, maxSanity: +150, combatRoll: 10}
+		isPerk: true
+		dayEvents:
+				{
+			reqAge: 10..
+			resetStatusAge: true
+			items:{it-opchest-gear: 1}
 				}
     }
 
