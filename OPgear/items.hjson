@@ -9,7 +9,11 @@
 		maxStack: 500
 		bonus: {capacity: 30}
 	    noBonusStacking: true
-		useEvents: evt-essential-useEvent
+		useEvents:
+			{
+			items:{il-opchest-get: 2}
+			removeItem : true
+			}
 	}
 	
 	{
@@ -22,7 +26,11 @@
 		maxStack: 500
 		bonus: {capacity: 30}
 	    noBonusStacking: true
-		useEvents: evt-bombs-useEvent
+		useEvents:
+			{
+			items:{il-bombchest-get: 2}
+			removeItem : true
+			}
 	}
 
 	{
@@ -35,7 +43,11 @@
 		maxStack: 500
 		bonus: {capacity: 30}
 	    noBonusStacking: true
-		useEvents: evt-gear-useEvent
+		useEvents:
+			{
+			items:{il-gearchest-get: 2}
+			removeItem : true
+			}
 	}
 
 	{

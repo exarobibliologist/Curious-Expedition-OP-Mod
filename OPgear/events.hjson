@@ -1,25 +1,40 @@
 [
-	{ 
-		id: evt-essential-useEvent
-		select:
+	{
+		id: il-opchest-get
+		items:
 		[
-		{slots: 1, items:{it-opbag-food: 10, it-opbag-essential: 10, it-opbag-guns: 10, it-opbag-shrooms: 10, it-opbag-pages: 10, it-opbag-treasure: 10, it-opbag-extras: 10, it-opbag-eggs: 10, it-opbag-quest: 10, it-opbag-music: 10}}
+		{slots: 2, it-opbag-food: 10}
+		{slots: 2, it-opbag-essential: 10}
+		{slots: 2, it-opbag-guns: 10}
+		{slots: 2, it-opbag-shrooms: 10}
+		{slots: 2, it-opbag-pages: 10}
+		{slots: 2, it-opbag-treasure: 10}
+		{slots: 2, it-opbag-extras: 10}
+		{slots: 2, it-opbag-eggs: 10}
+		{slots: 2, it-opbag-quest: 10}
+		{slots: 2, it-opbag-music: 10}
 		]
 	}
 
-	{ 
-		id: evt-bombs-useEvent
-		select:
+	{
+		id: il-gearchest-get
+		items:
 		[
-		{slots: 2, items:{it-doombomb: 100, it-greenbomb: 100, it-dynamite: 50}}
+		{slots: 2, it-opglasses: 1}
+		{slots: 2, it-opwatch: 1}
+		{slots: 2, it-opchoc: 1}
+		{slots: 2, it-opradar: 100}
+		{slots: 2, it-opportal: 100}
 		]
 	}
 
-	{ 
-		id: evt-gear-useEvent
-		select:
+	{
+		id: il-bombchest-get
+		items:
 		[
-		{slots: 1, items:{it-opglasses: 1, it-opwatch: 1, it-opchoc: 1, it-opradar: 100, it-opportal: 100}}
+		{slots: 5, it-greenbomb: 100}
+		{slots: 1, it-doombomb: 100}
+		{slots: 1, it-dynamite: 100}
 		]
 	}
 
