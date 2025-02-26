@@ -24,7 +24,7 @@
 		{slots: 2, it-opwatch: 1}
 		{slots: 2, it-opchoc: 1}
 		{slots: 2, it-opradar: 100}
-		{slots: 2, it-opportal: 100}
+		{slots: 1, it-opportal: 100}
 		]
 	}
 

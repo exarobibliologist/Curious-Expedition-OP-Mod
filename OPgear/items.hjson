@@ -11,7 +11,7 @@
 	    noBonusStacking: true
 		useEvents:
 			{
-			items:{il-opchest-get: 2}
+			items:{il-opchest-get: 3}
 			removeItem : true
 			}
 	}
@@ -28,7 +28,7 @@
 	    noBonusStacking: true
 		useEvents:
 			{
-			items:{il-bombchest-get: 2}
+			items:{il-bombchest-get: 3}
 			removeItem : true
 			}
 	}
@@ -45,7 +45,7 @@
 	    noBonusStacking: true
 		useEvents:
 			{
-			items:{il-gearchest-get: 2}
+			items:{il-gearchest-get: 3}
 			removeItem : true
 			}
 	}
