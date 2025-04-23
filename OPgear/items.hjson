@@ -11,7 +11,7 @@
 	    noBonusStacking: true
 		useEvents:
 			{
-			items:{il-opchest-get: 3}
+			items:{il-opchest-get: 4}
 			removeItem : true
 			}
 	}
@@ -28,7 +28,7 @@
 	    noBonusStacking: true
 		useEvents:
 			{
-			items:{il-bombchest-get: 3}
+			items:{il-bombchest-get: 4}
 			removeItem : true
 			}
 	}
@@ -45,7 +45,7 @@
 	    noBonusStacking: true
 		useEvents:
 			{
-			items:{il-gearchest-get: 3}
+			items:{il-gearchest-get: 4}
 			removeItem : true
 			}
 	}
@@ -303,7 +303,7 @@
 		maxStack: 500
 		useEvents:
 			{
-				addLocation: {ref: loc-portal, range: ..1}
+				addLocation: {ref: loc-portal, range: ..3}
 				playSound: sfx_tomePage_var1 sfx_tomePage_var2 sfx_tomePage_var3
 				removeItem: true
 			}
@@ -365,17 +365,27 @@
 												tl-cactusForest
 												tl-swamp
 												tl-scorchedEarth
-												tl-deset-stoneForest
+												tl-desert-stoneForest
 												tl-giantMushrooms
 												tl-glacier-land
 												tl-crystalForest
 												tl-frozenPlains
+												tl-snowForest
 												tl-deepSnow
+												tl-packIce
 												tl-plateau
 												tl-void
 												tl-pit-desert
 												tl-pit-dry
 												tl-pit-grass
+												tl-river-shallow
+												tl-river
+												tl-corrupted-plains
+												tl-corrupted-river
+												tl-corrupted-mountain
+												tl-sulfur-swamp
+												tl-sulfur-shallow
+												tl-sulfur
 											]
 										new: tl-scorchedEarth
 									}
@@ -460,17 +470,27 @@
 												tl-cactusForest
 												tl-swamp
 												tl-scorchedEarth
-												tl-deset-stoneForest
+												tl-desert-stoneForest
 												tl-giantMushrooms
 												tl-glacier-land
 												tl-crystalForest
 												tl-frozenPlains
+												tl-snowForest
 												tl-deepSnow
+												tl-packIce
 												tl-plateau
 												tl-void
 												tl-pit-desert
 												tl-pit-dry
 												tl-pit-grass
+												tl-river-shallow
+												tl-river
+												tl-corrupted-plains
+												tl-corrupted-river
+												tl-corrupted-mountain
+												tl-sulfur-swamp
+												tl-sulfur-shallow
+												tl-sulfur
 											]
 										new: tl-grass
 									}

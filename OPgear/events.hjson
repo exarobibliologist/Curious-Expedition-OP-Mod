@@ -257,10 +257,10 @@
 		select:
 			[
 				{
-					mapScore: 5
-					standing: 10
-					blockRivals: 5
-					deactivateZones: {radius: 40, turns: 20}
+					mapScore: 10
+					standing: 100
+					blockRivals: 10
+					deactivateZones: {radius: 80, turns: 30}
 					reqLocation: {flags: "", range: ..100, locationKnown: false}
 					posTile: {range: ..100, closest: true, locationFlags: "", locationKnown: false}
 					revealTiles: {location: true, centerCam: true}
